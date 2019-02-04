@@ -1,4 +1,4 @@
-@media screen{
+@media print {
 
 @font-face {
   font-family: 'Overseer';
@@ -8,11 +8,6 @@
 @font-face {
   font-family: 'Overseer-Italic';
   src: url('/fonts/Overseer Italic.otf');
-}
-
-body {
-	background-color: rgb(40,65,129);
-	color: rgb(231, 189, 66);
 }
 
 h1 {
@@ -39,31 +34,11 @@ h2 {
 }
 
 #equipmentToggle {
-	padding: 1em;
+	display: none;
 }
 
 .button-force-selector {
-	border-radius: 0px 0px 20px 20px;
-}
-
-.choice span {
-	padding-right: .2em;
-	padding-left: .2em;
-}
-
-#bos {
-	background-color: rgb(200,200,200);
-	color: rgb(75, 75, 75);
-}
-
-#super_mutants {
-	background-color: rgb(200,200,200);
-	color: green;
-}
-
-#survivors {
-	background-color: rgb(200,200,200);
-	color: rgb(40,65,129);
+	display: none;
 }
 
 #selector ul {
@@ -82,7 +57,7 @@ h2 {
 }
 
 .add{
-	clear:both;
+	display: none;
 }
 
 #addSection ul li {
@@ -92,7 +67,7 @@ h2 {
 }
 
 #addMenu {
-	width: 100%;
+	display: none;
 }
 
 #force{
@@ -115,9 +90,8 @@ h2 {
 }
 
 .carry-section {
-	clear: right;
-	background-color: rgb(75,75,75);
-	padding-left: 1em;
+	float: left;
+	padding-right: 1em;
 }
 
 .header-section div {
@@ -138,7 +112,7 @@ h2 {
 }
 
 .carry-section .header {
-	display: inline-block;
+	display: none;
 }
 
 .carry-section div {
@@ -147,8 +121,7 @@ h2 {
 }
 
 .carry-section h2 {
-	display: inline-block;
-	margin-right: .3em;
+	display: none;
 }
 
 .carry-section .consumable {
@@ -213,8 +186,7 @@ h2 {
 }
 
 .btn-unequipped {
-	background-color: rgb(200,200,200);
-	color: rgb(75, 75, 75);
+	display: none;
 }
 
 input {
@@ -232,8 +204,11 @@ select {
 }
 
 .btn-background-off {
-	background-color: rgb(200, 200, 200);
-	color: rgb(40,65,129);
+	display: none;
+}
+
+.inactiveLeaderSection {
+	display: none;
 }
 
 }
