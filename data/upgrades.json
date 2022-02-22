@@ -1,544 +1,4121 @@
 {
+  "battle_mode_packs":{
+    "advanced_items": [
+      "armor.army_helmet",
+      "armor.cleanroom_suit",
+      "armor.combat_armor",
+      "armor.commando_chest_piece",
+      "armor.damaged_hazmat_suit",
+      "armor.environmental_suit",
+      "armor.freefall_leg_armor",
+      "armor.hazmat_suit",
+      "power_armor.ncr_salvaged_power_armor",
+      "armor.protectors_right_arm_guard",
+      "armor.sturdy_combat_armor",
+      "clothing.1st_recon_beret",
+      "clothing.ncr_engineer_jumpsuit",
+      "clothing.airship_captains_hat",
+      "clothing.assault_gas_mask",
+      "clothing.brotherhood_of_steel_hood",
+      "clothing.camoflage",
+      "clothing.eyeglasses",
+      "clothing.magnifying_visor",
+      "clothing.military_fatigues",
+      "clothing.robotic_bits",
+      "clothing.vault_111_jumpsuit",
+      "gear.admin_password",
+      "gear.armor_piercing_ammo",
+      "gear.artillery_smoke_grenade",
+      "gear.car_security_override",
+      "gear.climbing_spikes",
+      "gear.custom_ammo",
+      "gear.draft_codex",
+      "gear.fire_extinguisher",
+      "gear.flashlight",
+      "gear.hand_written_note",
+      "gear.hollow_point_ammo",
+      "gear.incendiary_ammo",
+      "gear.ncr_emergency_radio",
+      "gear.overclocker",
+      "gear.stethoscope",
+      "gear.stuffed_monkey",
+      "gear.temporary_password",
+      "gear.turret_inhibitors",
+      "gear.unsent_letter",
+      "gear.vertibird_signal_grenade",
+      "gear.weapon_repair_kit",
+      "heavy_weapons.broadsider",
+      "heavy_weapons.light_machine_gun",
+      "heavy_weapons.minigun",
+      "heavy_weapons.missile_launcher",
+      "melee.baton",
+      "melee.chinese_officers_sword",
+      "melee.incendiary_baton",
+      "melee.poisoners_ripper",
+      "melee.relentless_chinese_officers_sword",
+      "melee.ripper",
+      "melee.thermic_lance",
+      "mines.c4_plastic_explosive",
+      "mines.fragmentation_mine",
+      "pistols.357_magnum_revolver",
+      "pistols.44_magnum_revolver",
+      "pistols.44_revolver",
+      "pistols.10mm_pistol",
+      "pistols.127mm_pistol",
+      "pistols.a_light_burning_in_the_darkness",
+      "pistols.explosive_10mm_pistol",
+      "pistols.hunters_10mm_pistol",
+      "pistols.hunting_revolver",
+      "pistols.indys_freezing_44",
+      "pistols.kellogs_pistol",
+      "pistols.kneecapper_44_revolver",
+      "pistols.lorenzos_artifact_gun",
+      "pistols.thirst_zapper_cola",
+      "rifles.assault_carbine",
+      "rifles.assault_rifle",
+      "rifles.caravan_shotgun",
+      "rifles.combat_rifle",
+      "rifles.combat_shotgun",
+      "rifles.cowboy_repeater",
+      "rifles.double_barrel_shotgun",
+      "rifles.explosive_combat_rifle",
+      "rifles.freezing_combat_shotgun",
+      "rifles.grenade_launcher",
+      "rifles.hunters_hunting_rifle",
+      "rifles.hunters_laser_musket",
+      "rifles.hunting_rifle",
+      "rifles.hunting_shotgun",
+      "rifles.incendiary_assault_rifle",
+      "rifles.kneecapper_laser_musket",
+      "rifles.laser_musket",
+      "rifles.machine_gun_turret_mk3",
+      "rifles.machine_gun_turret_mk1",
+      "rifles.marksman_carbine",
+      "rifles.plasma_infused_combat_shotgun",
+      "rifles.service_rifle",
+      "rifles.sniper_rifle",
+      "rifles.submachine_gun",
+      "rifles.trail_carbine",
+      "rifles.troubleshooters_combat_rifle",
+      "thrown.fragmentation_grenade",
+      "thrown.incendiary_grenade",
+      "thrown.stun_grenade"
+    ],
+  "automatron_items" : [
+      "automatron.assaultron_legs",
+      "automatron.assaultron_torso",
+      "automatron.junkbot_torso",
+      "automatron.mr_handy_legs",
+      "automatron.mr_handy_torso",
+      "automatron.protectron_legs",
+      "automatron.protectron_torso",
+      "automatron.robobrain_legs",
+      "automatron.robobrain_torso",
+      "automatron.sentry_bot_legs",
+      "automatron.sentry_bot_torso"
+    ],
+    "creature_items" : [
+      "armor.corrugated_plates",
+      "armor.spiked_harness",
+      "armor.tesla_coil_harness",
+      "clothing.limb_braces",
+      "gear.chemical_coating",
+      "gear.dead_mans_switch",
+      "heroic.wild",
+      "melee.bloated_glowing_one_swipe",
+      "melee.deathclaw_trample",
+      "melee.deathclaw_crush",
+      "melee.deathclaw_head_butt",
+      "melee.deathclaw_roar",
+      "melee.deathclaw_swipe",
+      "melee.deathclaw_tail_sweep",
+      "melee.dog_bite",
+      "melee.feral_ghoul_swipe",
+      "melee.fog_crawler_claw",
+      "melee.fog_crawler_ground_pound",
+      "melee.glowing_radroach_swarm_bite",
+      "melee.hound_bite",
+      "melee.matriarch_swipe",
+      "melee.mirelurk_claw",
+      "melee.mirelurk_hatchlings_claw",
+      "melee.mirelurk_hunter_claw",
+      "melee.mirelurk_queen_claw",
+      "melee.mole_rat_bite",
+      "melee.mongrel_bite",
+      "melee.putrid_glowing_one_swipe",
+      "melee.radroach_swarm_bite",
+      "melee.radscorpion_pincers_and_sting",
+      "melee.weak_feral_ghoul_swipe",
+      "melee.young_deathclaw_crush",
+      "melee.young_deathclaw_swipe",
+      "mods.conditioning_active",
+      "mods.conditioning_adrenaline",
+      "mods.conditioning_ankle_biter",
+      "mods.conditioning_arm_breaker",
+      "mods.conditioning_champion",
+      "mods.conditioning_chancer",
+      "mods.conditioning_chief",
+      "mods.conditioning_crafty",
+      "mods.conditioning_dash",
+      "mods.conditioning_fast",
+      "mods.conditioning_ferocious",
+      "mods.conditioning_haymaker",
+      "mods.conditioning_hit_and_run",
+      "mods.conditioning_independent",
+      "mods.conditioning_lean",
+      "mods.conditioning_rage",
+      "mods.conditioning_savage",
+      "mods.conditioning_sniffer",
+      "mods.conditioning_stunning",
+      "mods.conditioning_vicious",
+      "mods.conditioning_vigilant",
+      "mods.conditioning_wily",
+      "rifles.mirelurk_hunter_acid",
+      "rifles.mirelurk_queen_acid",
+      "thrown.centaur_lash",
+      "thrown.mirelurk_queen_brood"
+    ],
+    "dog_items" : [
+      "armor.chain_dog_collar",
+      "clothing.dog_bandana",
+      "clothing.spiked_muzzle"
+    ],
+  "high_tech_items" : [
+      "power_armor.enclave_power_armor",
+      "armor.heavy_synth_armor",
+      "power_armor.hellfire_power_armor",
+      "power_armor.t45_power_armor",
+      "power_armor.t51_power_armor",
+      "power_armor.t60_power_armor",
+      "power_armor.t60f_power_armor",
+      "power_armor.x01_power_armor",
+      "clothing.enclave_officers_hat",
+      "clothing.institute_division_head_coat",
+      "clothing.institute_lab_coat",
+      "gear.creature_patch",
+      "gear.deathclaw_control_scrambler",
+      "gear.domestication_unit",
+      "gear.fusion_core",
+      "gear.gen_1_synth_override",
+      "gear.pheremone_emitter",
+      "gear.pheremone_mask",
+      "gear.power_armor_patch",
+      "gear.pulse_shield",
+      "gear.synthbooster",
+      "gear.stealth_boy",
+      "gear.zapper",
+      "heavy_weapons.fat_man",
+      "heavy_weapons.final_judgement",
+      "heavy_weapons.gatling_laser",
+      "heavy_weapons.heavy_incinerator",
+      "heavy_weapons.incinerator",
+      "heavy_weapons.tesla_cannon",
+      "melee.ballistic_fist",
+      "melee.power_fist",
+      "melee.stun_baton",
+      "melee.super_sledge",
+      "mines.pulse_mine",
+      "pistols.col_autumns_10mm_pistol",
+      "pistols.deadeye_gamma_gun",
+      "pistols.gamma_gun",
+      "pistols.institute_laser_pistol",
+      "pistols.laser_pistol",
+      "pistols.penetrating_laser_pistol",
+      "pistols.plasma_defender",
+      "pistols.plasma_pistol",
+      "pistols.protectrons_gaze",
+      "pistols.pulse_gun",
+      "pistols.staggering_institute_laser_pistol",
+      "pistols.wounding_laser_pistol",
+      "rifles.anti_materiel_rifle",
+      "rifles.deadeye_institute_laser_rifle",
+      "rifles.flamer",
+      "rifles.gauss_rifle",
+      "rifles.institute_laser_rifle",
+      "rifles.laser_rifle",
+      "rifles.laser_turret",
+      "rifles.plasma_rifle",
+      "rifles.relentless_laser_rifle",
+      "rifles.tesla_rifle",
+      "thrown.cryo_grenade",
+      "thrown.plasma_grenade",
+      "thrown.pulse_grenade",
+      "thrown.synth_relay_grenade"
+    ],
+    "robot_items" : [
+      "armor.mechanist_armor_and_helmet",
+      "clothing.triggerman_bowler",
+      "clothing.bowler_hat",
+      "gear.mr_handy_fuel",
+      "gear.robot_repair_kit",
+      "gear.robot_repair_patch",
+      "gear.third_arm_clamp",
+      "heavy_weapons.securitron_gatling_laser",
+      "heavy_weapons.securitron_missile_launcher",
+      "heroic.clunky",
+      "melee.assaultron_swipe",
+      "melee.empty_minigun",
+      "melee.hand_saw_blade",
+      "melee.hand_shock",
+      "melee.hand_vice_grip",
+      "melee.mr_handy_buzzsaw",
+      "mods.damage_self_destruct",
+      "mods.hacking_module",
+      "mods.lockpick_module",
+      "mods.magnetic_attachment",
+      "mods.noxious_armor",
+      "mods.processor_overcharger",
+      "mods.radiation_coils",
+      "mods.recon_sensors",
+      "mods.regeneration_field",
+      "mods.resistence_field",
+      "mods.sensor_array_robots",
+      "mods.serrated_bodywork",
+      "mods.servo_boost",
+      "mods.stealth_field",
+      "mods.subroutine_bash",
+      "mods.subroutine_carnage",
+      "mods.subroutine_combat_analysis",
+      "mods.subroutine_combative",
+      "mods.subroutine_emergency",
+      "mods.subroutine_pause",
+      "mods.subroutine_quick",
+      "mods.subroutine_remote",
+      "mods.terminal_self_destruction",
+      "mods.tesla_coils_robots",
+      "mods.welded_plate",
+      "pistols.eyebot_laser",
+      "pistols.eyebot_tesla_cannon",
+      "pistols.hand_cryojet",
+      "pistols.hand_gamma_gun",
+      "pistols.hand_lightning_gun",
+      "pistols.hand_nail_gun",
+      "pistols.mr_handy_flamer",
+      "pistols.protectron_hand_laser",
+      "pistols.robobrain_mesmetron",
+      "rifles.assaultron_head_laser",
+      "rifles.battered_assaultron_head_laser",
+      "rifles.robobrain_laser",
+      "rifles.securitron_grenade_launcher",
+      "rifles.securitron_smg"
+    ],
+    "special_items" : [
+      "melee.fire_hydrant_bat",
+      "melee.horrigans_knife",
+      "melee.marcus_punch",
+      "pistols.alien_blaster",
+      "rifles.horrigans_plasma_gun",
+      "thrown.suicider_mini_nuke"
+    ],
+    "super_mutant_items" : [
+      "armor.bladed_helmet",
+      "armor.chains",
+      "armor.heavy_gauntlets",
+      "armor.rocks_bladed_helm",
+      "clothing.aviator_cap",
+      "clothing.leg_guards",
+      "clothing.shoulder_rags",
+      "thrown.behemoth_rock_throw",
+      "thrown.weak_behemoth_rock_throw"
+    ],
+    "upgrades" : [
+      "heroic.heroic",
+      "heroic.unpredictable",
+      "leader.beloved",
+      "leader.berserker",
+      "leader.blitzer",
+      "leader.bodyguard",
+      "leader.brawler",
+      "leader.bruiser",
+      "leader.commander",
+      "leader.co-ordinator",
+      "leader.creature_controller",
+      "leader.defender",
+      "leader.dweller",
+      "leader.fusilier",
+      "leader.gatherer",
+      "leader.grenadier",
+      "leader.hunter",
+      "leader.old_timer",
+      "leader.procurer",
+      "leader.robot_controller",
+      "leader.selfless",
+      "leader.skipper",
+      "leader.stalker",
+      "leader.synth_expert",
+      "leader.tactician",
+      "leader.tech",
+      "leader.tech_chief",
+      "leader.thief",
+      "leader.veteran",
+      "leader.warden",
+      "leader.wasteland_searcher",
+      "leader.wrestler",
+      "mods.abraxo_paint",
+      "mods.aligned_sights",
+      "mods.arm_breaker",
+      "mods.armor_piercing_receiver",
+      "mods.asbestos_lining",
+      "mods.balanced",
+      "mods.ballistic_weave",
+      "mods.barbed",
+      "mods.bayonet",
+      "mods.biocomm_mesh",
+      "mods.boosted_servos",
+      "mods.braced",
+      "mods.comfort_grip",
+      "mods.core_assembly",
+      "mods.counterweight",
+      "mods.cushioned",
+      "mods.custom_fitted",
+      "mods.dissipating",
+      "mods.elder_paint",
+      "mods.emergency_protocols",
+      "mods.explosive_shielding",
+      "mods.explosive_vent",
+      "mods.hair_trigger",
+      "mods.hardened_receiver",
+      "mods.headlamp",
+      "mods.headlamp_power_armor",
+      "mods.heavy",
+      "mods.hot_rod_shark_paint",
+      "mods.hydraulic_bracers",
+      "mods.impact_exchanger",
+      "mods.improved_flexibility",
+      "mods.internal_database",
+      "mods.jagged",
+      "mods.jetpack",
+      "mods.lead_lined",
+      "mods.lengthened_barrel",
+      "mods.light",
+      "mods.lightweight",
+      "mods.long_barrel",
+      "mods.medic_pump",
+      "mods.muffled",
+      "mods.multi-calibre",
+      "mods.multi-purpose",
+      "mods.optimized_servos",
+      "mods.padded",
+      "mods.pneumatic",
+      "mods.powerful",
+      "mods.reactive_plates",
+      "mods.re-bored",
+      "mods.recoil_compensator",
+      "mods.recon_sensors",
+      "mods.refined",
+      "mods.reflex_sights",
+      "mods.rusty_knuckles",
+      "mods.sensor_array_pa",
+      "mods.serrated_bayonet",
+      "mods.silenced",
+      "mods.spiked",
+      "mods.stun_pack",
+      "mods.superior_materials",
+      "mods.targeting_hud",
+      "mods.tesla_bracers",
+      "mods.tesla_coils",
+      "mods.thicker_plating",
+      "mods.toxic",
+      "mods.vats_matrix_overlay",
+      "mods.venomous",
+      "mods.vim_refresh_paint",
+      "perks.action_person",
+      "perks.adamantion_skeleton",
+      "perks.animal_friend",
+      "perks.animal_friend_2",
+      "perks.animal_friend_3",
+      "perks.armorer",
+      "perks.attack_dog",
+      "perks.basher",
+      "perks.big_leagues",
+      "perks.blacksmith",
+      "perks.blitz",
+      "perks.bloody_mess",
+      "perks.chem_resistant",
+      "perks.chemist",
+      "perks.collaborative",
+      "perks.command_act",
+      "perks.command_pack_assault",
+      "perks.command_attack",
+      "perks.command_pack_attack",
+      "perks.command_counter",
+      "perks.command_find",
+      "perks.command_guided_strike",
+      "perks.command_heel",
+      "perks.command_impetuous",
+      "perks.command_protect",
+      "perks.command_scatter",
+      "perks.command_speed",
+      "perks.command_take_it",
+      "perks.companion",
+      "perks.concentrated_fire",
+      "perks.creature_trainer",
+      "perks.demolition_expert",
+      "perks.entangle",
+      "perks.finesse",
+      "perks.fire_resistant",
+      "perks.ghoulish",
+      "perks.gun_nut_heavy",
+      "perks.gun_nut_pistol",
+      "perks.gun_nut_rifle",
+      "perks.gunslinger",
+      "perks.hack_robot",
+      "perks.hacker",
+      "perks.heavy_gunner",
+      "perks.hit_the_deck",
+      "perks.huntsman",
+      "perks.impatient",
+      "perks.irresponsible",
+      "perks.lead_belly",
+      "perks.life_giver",
+      "perks.light_step",
+      "perks.local_leader",
+      "perks.local_leader_2",
+      "perks.locksmith",
+      "perks.lone_wanderer",
+      "perks.medic",
+      "perks.mend_robot",
+      "perks.moving_target",
+      "perks.mysterious_stranger_1",
+      "perks.mysterious_stranger_2",
+      "perks.mysterious_stranger_3",
+      "perks.nerd_rage",
+      "perks.ninja",
+      "perks.nuclear_physicist",
+      "perks.pack_leader",
+      "perks.pain_train",
+      "perks.penetrator",
+      "perks.program_act",
+      "perks.program_aggressive",
+      "perks.program_attack",
+      "perks.program_coordinated",
+      "perks.program_hack",
+      "perks.program_intercept",
+      "perks.program_pick",
+      "perks.program_return",
+      "perks.program_speed",
+      "perks.program_spread",
+      "perks.program_synchronized",
+      "perks.program_volley",
+      "perks.pyromaniac",
+      "perks.quick_thinking",
+      "perks.rad_resistant",
+      "perks.refractor",
+      "perks.rifle_man",
+      "perks.robotics_expert",
+      "perks.shotgun_surgeon",
+      "perks.sneak",
+      "perks.steady_aim",
+      "perks.strong_constitution",
+      "perks.stun_resistant",
+      "perks.toughness",
+      "perks.travel_light",
+      "perks.weapon_handling"
+    ],
+    "usable_items" : [
+      "alcohol.atomic_cocktail",
+      "alcohol.beer",
+      "alcohol.bourbon",
+      "alcohol.dirty_wastelander",
+      "alcohol.ice_cold_gwinett_ale",
+      "alcohol.moonshine",
+      "alcohol.rum",
+      "alcohol.vodka",
+      "alcohol.whiskey",
+      "alcohol.wine",
+      "chems.addictol",
+      "chems.berry_mentats",
+      "chems.buffout",
+      "chems.bufftats",
+      "chems.calmex",
+      "chems.day_tripper",
+      "chems.doctors_bag",
+      "chems.fury",
+      "chems.healing_powder",
+      "chems.jet",
+      "chems.med-x",
+      "chems.mentats",
+      "chems.mysterious_serum",
+      "chems.orange_mentats",
+      "chems.overdrive",
+      "chems.psycho",
+      "chems.psychobuff",
+      "chems.radaway",
+      "chems.rad-x",
+      "chems.rebound",
+      "chems.refreshing_beverage",
+      "chems.spark",
+      "chems.steady",
+      "chems.stimpak",
+      "chems.ultra_jet",
+      "chems.x111_compound",
+      "chems.x-cell",
+      "food_and_drink.bighorner_steak",
+      "food_and_drink.bloatfly_meat",
+      "food_and_drink.blood_pack",
+      "food_and_drink.brahmin_meat",
+      "food_and_drink.caravan_lunch",
+      "food_and_drink.cave_fungus",
+      "food_and_drink.cram",
+      "food_and_drink.deathclaw_meat",
+      "food_and_drink.fog_crawler_meat",
+      "food_and_drink.fresh_melon",
+      "food_and_drink.gecko_kebab",
+      "food_and_drink.honey_mesquite_pod",
+      "food_and_drink.iguana_bits",
+      "food_and_drink.iguana_on_a_stick",
+      "food_and_drink.mirelurk_meat",
+      "food_and_drink.mole_rat_meat",
+      "food_and_drink.mutant_hound_meat",
+      "food_and_drink.nuka_cherry",
+      "food_and_drink.nuka_cola",
+      "food_and_drink.nuka_cola_quantum",
+      "food_and_drink.queen_mirelurk_meat",
+      "food_and_drink.radroach_meat",
+      "food_and_drink.radscorpion_egg",
+      "food_and_drink.radscorpion_meat",
+      "food_and_drink.radstag_meat",
+      "food_and_drink.squirrel_bits",
+      "food_and_drink.squirrel_on_a_stick",
+      "food_and_drink.squirrel_stew",
+      "food_and_drink.sugar_bombs",
+      "food_and_drink.sunset_sasparilla",
+      "food_and_drink.tato_and_water",
+      "food_and_drink.yao_guai_meat",
+      "food_and_drink.yao_guai_rib_meat"
+    ],
+    "wasteland_items" : [
+      "armor.armored_pads",
+      "armor.damaged_legate_armor",
+      "armor.gecko_backed_metal_armor",
+      "armor.heavy_raider_armor",
+      "power_armor.power_armor_frame",
+      "power_armor.raider_power_armor",
+      "armor.sturdy_leather_armor",
+      "armor.sturdy_metal_armor",
+      "clothing.atom_cats_jacket_and_jeans",
+      "clothing.baseball_cap",
+      "clothing.battered_fedora",
+      "clothing.dirty_postman_uniform",
+      "clothing.mirelurk_carapace",
+      "clothing.patched_three_piece_suit",
+      "clothing.red_flight_helmet",
+      "clothing.road_goggles",
+      "clothing.sea_captains_hat",
+      "clothing.tricorn_hat",
+      "gear.binoculars",
+      "gear.fragile_bobby_pin",
+      "gear.mirelurk_eggs",
+      "gear.rope",
+      "gear.skeleton_key",
+      "gear.snakebite_touniquet",
+      "heavy_weapons.freezing_junk_jet",
+      "heavy_weapons.junk_jet",
+      "melee.assaultron_blade",
+      "melee.baseball_bat",
+      "melee.blade_of_the_east",
+      "melee.bloodied_board",
+      "melee.bloodied_pipe_wrench",
+      "melee.board",
+      "melee.cattle_prod",
+      "melee.crippling_tire_iron",
+      "melee.deathclaw_gauntlet",
+      "melee.dog_tag_fist",
+      "melee.fire_axe",
+      "melee.freezing_machete",
+      "melee.huge_club",
+      "melee.hunters_baseball_bat",
+      "melee.irradiated_sledgehammer",
+      "melee.junkies_nail_board",
+      "melee.lead_pipe",
+      "melee.machete",
+      "melee.machete_gladius",
+      "melee.mr_handy_buzz_blade",
+      "melee.nail_board",
+      "melee.penetrating_lead_pipe",
+      "melee.pipe_wrench",
+      "melee.plasma_infused_assaultron_blade",
+      "melee.rebar_club",
+      "melee.shishkebab",
+      "melee.sledgehammer",
+      "melee.spear",
+      "melee.staggering_tire_iron",
+      "melee.tire_iron",
+      "melee.troubleshooters_nail_board",
+      "melee.troubleshooters_pipe_wrench",
+      "melee.vertibird_blade",
+      "melee.wounding_machete",
+      "mines.bottlecap_mine",
+      "pistols.bolt_action_pipe_pistol",
+      "pistols.flare_gun",
+      "pistols.irradiated_bolt_action_pipe_pistol",
+      "pistols.pipe_pistol",
+      "pistols.plasma_infused_bolt_action_pipe_pistol",
+      "pistols.poisoners_pipe_pistol",
+      "pistols.ranger_sequoia",
+      "pistols.staggering_pipe_pistol",
+      "rifles.staggering_pipe_rifle",
+      "rifles.bolt_action_pipe_rifle",
+      "rifles.crippling_bolt_action_pipe_rifle",
+      "rifles.irradiated_pipe_rifle",
+      "rifles.junkies_bolt_action_pipe_rifle",
+      "rifles.pipe_rifle",
+      "rifles.railway_rifle",
+      "rifles.sawed_off_shotgun",
+      "thrown.baseball_grenade",
+      "thrown.long_fuse_dynamite",
+      "thrown.molotov_cocktail",
+      "thrown.throwing_spear"
+    ],
+    "robobrain_items" : [
+      "gear.robobrain_arms",
+      "rifles.robobrain_laser",
+      "pistols.robobrain_mesmetron"
+    ],
+    "power_armor":[
+      "power_armor.enclave_power_armor",
+      "power_armor.hellfire_power_armor",
+      "power_armor.ncr_salvaged_power_armor",
+      "power_armor.power_armor_frame",
+      "power_armor.raider_power_armor",
+      "power_armor.t45_power_armor",
+      "power_armor.t51_power_armor",
+      "power_armor.t60_power_armor",
+      "power_armor.t60f_power_armor",
+      "power_armor.x01_power_armor"
+    ]
+  },
+  "automatron" : [
+    {
+      "name": "assaultron_legs",
+      "cost": 88
+    },
+    {
+      "name": "assaultron_torso",
+      "cost": 66
+    },
+    {
+      "name": "junkbot_torso",
+      "cost": 8
+    },
+    {
+      "name": "mr_handy_legs",
+      "cost": 27
+    },
+    {
+      "name": "mr_handy_torso",
+      "cost": 17
+    },
+    {
+      "name": "protectron_legs",
+      "cost": 1
+    },
+    {
+      "name": "protectron_torso",
+      "cost": 17
+    },
+    {
+      "name": "robobrain_legs",
+      "cost": 8
+    },
+    {
+      "name": "robobrain_torso",
+      "cost": 28
+    },
+    {
+      "name": "sentry_bot_legs",
+      "cost": 6
+    },
+    {
+      "name": "sentry_bot_torso",
+      "cost": 173
+    }
+  ],
   "heavy_weapons": [
     {
       "name": "broadsider",
-      "cost": 25
+      "cost": 31,
+      "preview": "broadsider"
+    },
+    {
+      "name": "fat_man",
+      "cost": 45,
+      "preview": "fatman"
+    },
+    {
+      "name": "final_judgement",
+      "cost": 35,
+      "preview": "finaljudgement"
+    },
+    {
+      "name": "freezing_junk_jet",
+      "cost": 12,
+      "preview": "freezingjunkjet"
     },
     {
       "name": "gatling_laser",
-      "cost": 30
+      "cost": 30,
+      "preview": "gatlinglaser"
+    },
+    {
+      "name": "heavy_incinerator",
+      "cost": 35,
+      "preview": "heavyincinerator"
+    },
+    {
+      "name": "incinerator",
+      "cost": 22,
+      "preview":"incinerator"
+    },
+    {
+      "name": "junk_jet",
+      "cost": 10,
+      "preview": "junkjet"
+    },
+    {
+      "name": "light_machine_gun",
+      "cost": 18,
+      "preview":"lightmachinegun"
     },
     {
       "name": "minigun",
-      "cost": 30
+      "cost": 23,
+      "preview": "minigun"
     },
     {
       "name": "missile_launcher",
-      "cost": 30
+      "cost": 52,
+      "preview": "missilelauncher"
+    },
+    {
+      "name": "securitron_gatling_laser",
+      "cost": 20,
+      "preview": "securitrongatlinglaser"
+    },
+    {
+      "name": "securitron_missile_launcher",
+      "cost": 52,
+      "preview": "securitronmissilelauncher"
+    },
+    {
+      "name": "tesla_cannon",
+      "cost": 35,
+      "preview": "teslacannon"
     }
   ],
   "rifles": [
     {
+      "name": "anti_materiel_rifle",
+      "cost": 37,
+      "preview": "antimaterielrifle"
+    },
+    {
+      "name": "assault_carbine",
+      "cost": 10,
+      "preview": "assaultcarbine"
+    },
+    {
       "name": "assault_rifle",
-      "cost": 8
+      "cost": 8,
+      "preview": "assaultrifle"
     },
     {
       "name": "assaultron_head_laser",
-      "cost": 0
+      "cost": 40,
+      "preview": "assaultronlaser"
+    },
+    {
+      "name": "battered_assaultron_head_laser",
+      "cost": 30,
+      "preview": "assaultronbatlaser"
     },
     {
       "name": "bolt_action_pipe_rifle",
-      "cost": 10
+      "cost": 10,
+      "preview": "boltactionpiperifle"
+    },
+    {
+      "name": "caravan_shotgun",
+      "cost": 12,
+      "preview": "caravanshotgun"
     },
     {
       "name": "combat_rifle",
-      "cost": 14
+      "cost": 16,
+      "preview": "combatrifle"
     },
     {
       "name": "combat_shotgun",
-      "cost": 10
+      "cost": 10,
+      "preview": "combatshotgun"
+    },
+    {
+      "name": "cowboy_repeater",
+      "cost": 11,
+      "preview": "cowboyrepeater"
+    },
+    {
+      "name":"crippling_bolt_action_pipe_rifle",
+      "cost": 16,
+      "preview": "cripplingboltactionpiperifle"
+    },
+    {
+      "name":"deadeye_institute_laser_rifle",
+      "cost": 14,
+      "preview": "deadeyeinstitutelaserrifle"
     },
     {
       "name": "double_barrel_shotgun",
-      "cost": 17
+      "cost": 12,
+      "preview": "doublebarrelshotgun"
+    },
+    {
+      "name":"explosive_combat_rifle",
+      "cost": 19,
+      "preview": "explosivecombatrifle"
+    },
+    {
+      "name":"flamer",
+      "cost": 24,
+      "preview": "flamer"
+    },
+    {
+      "name":"freezing_combat_shotgun",
+      "cost": 12,
+      "preview": "freezingcombatshotgun"
+    },
+    {
+      "name": "gauss_rifle",
+      "cost": 40,
+      "preview": "gaussrifle"
+    },
+    {
+      "name": "grenade_launcher",
+      "cost": 35,
+      "preview": "grenadelauncher"
+    },
+    {
+      "name":"horrigans_plasma_gun",
+      "cost": 30,
+      "preview": "horrigansplasmagun"
+    },
+    {
+      "name": "hunters_hunting_rifle",
+      "cost": 22,
+      "preview":"huntershuntingrifle"
+    },
+    {
+      "name": "hunters_laser_musket",
+      "cost": 16
     },
     {
       "name": "hunting_rifle",
-      "cost": 20
+      "cost": 20,
+      "preview": "huntingrifle"
+    },
+    {
+      "name": "hunting_shotgun",
+      "cost": 9,
+      "preview": "huntingshotgun"
+    },
+    {
+      "name":"incendiary_assault_rifle",
+      "cost": 13,
+      "preview": "incendiaryassaultrifle"
     },
     {
       "name": "institute_laser_rifle",
-      "cost": 17
+      "cost": 10,
+      "preview": "institutelaserrifle"
+    },
+    {
+      "name":"irradiated_pipe_rifle",
+      "cost": 10,
+      "preview": "irradiatedpiperifle"
+    },
+    {
+      "name":"junkies_bolt_action_pipe_rifle",
+      "cost": 13,
+      "preview": "junkiesboltactionpiperifle"
+    },
+    {
+      "name":"kneecapper_laser_musket",
+      "cost": 16,
+      "preview": "kneecapperlasermusket"
     },
     {
       "name": "laser_musket",
-      "cost": 11
+      "cost": 14,
+      "preview": "lasermusket"
     },
     {
       "name": "laser_rifle",
-      "cost": 30
+      "cost": 30,
+      "preview": "laserrifle"
     },
     {
       "name": "laser_turret",
-      "cost": 10
+      "cost": 10,
+      "preview": "laserturret"
     },
     {
       "name": "machine_gun_turret_mk1",
-      "cost": 10
+      "cost": 10,
+      "preview": "machinegunturretmk1"
+    },
+    {
+      "name":"machine_gun_turret_mk3",
+      "cost": 15,
+      "preview": "machinegunturretmk3"
+    },
+    {
+      "name": "marksman_carbine",
+      "cost": 14,
+      "preview": "marksmancarbine"
+    },
+    {
+      "name":"mirelurk_hunter_acid",
+      "cost": 0,
+      "preview": "mirelurkhunteracid"
+    },
+    {
+      "name":"mirelurk_queen_acid",
+      "cost": 0,
+      "preview": "mirelurkqueenacid"
+    },
+    {
+      "name": "pipe_rifle",
+      "cost": 8,
+      "preview": "piperifle"
+    },
+    {
+      "name":"plasma_infused_combat_shotgun",
+      "cost": 12,
+      "preview": "plasmainfusedcombatshotgun"
     },
     {
       "name": "plasma_rifle",
-      "cost": 24
+      "cost": 19,
+      "preview": "plasmarifle"
+    },
+    {
+      "name": "railway_rifle",
+      "cost": 20,
+      "preview": "railwayrifle"
+    },
+    {
+      "name":"relentless_laser_rifle",
+      "cost": 32,
+      "preview": "relentlesslaserrifle"
+    },
+    {
+      "name":"robobrain_laser",
+      "cost": 7,
+      "preview":"robobrainlaser",
+      "restrictions":["robot"]
+    },
+    {
+      "name": "sawed_off_shotgun",
+      "cost": 15,
+      "preview": "sawedoffshotgun"
+    },
+    {
+      "name": "securitron_grenade_launcher",
+      "cost": 35,
+      "preview": "securitrongrenadelauncher"
+    },
+    {
+      "name": "securitron_smg",
+      "cost": 10,
+      "preview": "securitronsmg"
+    },
+    {
+      "name": "service_rifle",
+      "cost": 10,
+      "preview": "servicerifle"
+    },
+    {
+      "name": "sniper_rifle",
+      "cost": 26,
+      "preview": "sniperrifle"
+    },
+    {
+      "name": "staggering_pipe_rifle",
+      "cost": 14,
+      "preview": "staggeringpiperifle"
+    },
+    {
+      "name": "submachine_gun",
+      "cost": 10,
+      "preview": "submachinegun"
+    },
+    {
+      "name": "tesla_rifle",
+      "cost": 20,
+      "preview":"teslarifle"
+    },
+    {
+      "name": "trail_carbine",
+      "cost": 24,
+      "preview": "trailcarbine"
+    },
+    {
+      "name":"troubleshooters_combat_rifle",
+      "cost": 17,
+      "preview": "troubleshooterscombatrifle"
     }
   ],
   "pistols": [
     {
+      "name":"127mm_pistol",
+      "cost":4,
+      "preview": "127mmpistol"
+    },
+    {
+      "name":"357_magnum_revolver",
+      "cost":8,
+      "preview": "357magnumrevolver"
+    },
+    {
+      "name":"44_magnum_revolver",
+      "cost":8,
+      "preview": "44magnumrevolver"
+    },
+    {
       "name": "44_revolver",
-      "cost": 6
+      "cost": 6,
+      "preview": "44revolver"
     },
     {
       "name": "10mm_pistol",
-      "cost": 6
+      "cost": 6,
+      "preview": "10mmpistol"
+    },
+    {
+      "name":"a_light_burning_in_the_darkness",
+      "cost":14,
+      "preview": "alightburninginthedarkness"
     },
     {
       "name": "alien_blaster",
-      "cost": 6
+      "cost": 9,
+      "preview": "alienblaster"
+    },
+    {
+      "name": "bolt_action_pipe_pistol",
+      "cost": 1,
+      "preview": "boltactionpipepistol"
+    },
+    {
+      "name":"col_autumns_10mm_pistol",
+      "cost": 10,
+      "preview": "colautumns10mmpistol"
+    },
+    {
+      "name":"deadeye_gamma_gun",
+      "cost": 17,
+      "preview": "deadeyegammagun"
+    },
+    {
+      "name":"explosive_10mm_pistol",
+      "cost": 9,
+      "preview": "explosive10mmpistol"
     },
     {
       "name": "eyebot_laser",
-      "cost": 0
+      "cost": 4,
+      "preview": "eyebotlaser"
+    },
+    {
+      "name":"eyebot_tesla_cannon",
+      "cost":12,
+      "preview": "eyebotteslacannon"
+    },
+    {
+      "name": "flare_gun",
+      "cost": 5,
+      "preview": "flaregun"
     },
     {
       "name": "gamma_gun",
-      "cost": 23
+      "cost": 13,
+      "preview": "gammagun"
+    },
+    {
+      "name":"hand_cryojet",
+      "cost": 10,
+      "preview":"handcryojet"
+    },
+    {
+      "name":"hand_gamma_gun",
+      "cost": 15,
+      "preview":"handgammagun"
+    },
+    {
+      "name":"hand_lightning_gun",
+      "cost": 4,
+      "preview":"handlightninggun"
+    },
+    {
+      "name":"hand_nail_gun",
+      "cost": 7,
+      "preview":"handnailgun"
+    },
+    {
+      "name":"hunters_10mm_pistol",
+      "cost": 8,
+      "preview": "hunters10mmpistol"
+    },
+    {
+      "name":"hunting_revolver",
+      "cost":7,
+      "preview": "huntingrevolver"
     },
     {
       "name": "indys_freezing_44",
-      "cost": 9
+      "cost": 9,
+      "preview":"indysfreezing44"
+    },
+    {
+      "name": "institute_laser_pistol",
+      "cost": 3,
+      "preview": "institutelaserpistol"
+    },
+    {
+      "name":"irradiated_bolt_action_pipe_pistol",
+      "cost": 3,
+      "preview": "irradiatedboltactionpipepistol"
+    },
+    {
+      "name": "kellogs_pistol",
+      "cost": 10,
+      "preview": "kelloggspistol"
+    },
+    {
+      "name":"kneecapper_44_revolver",
+      "cost": 7,
+      "preview": "kneecapper44revolver"
     },
     {
       "name": "laser_pistol",
-      "cost": 7
+      "cost": 7,
+      "preview": "laserpistol"
+    },
+    {
+      "name":"lorenzos_artifact_gun",
+      "cost": 18,
+      "preview": "lorenzosartifactgun"
     },
     {
       "name": "mr_handy_flamer",
-      "cost": 0
+      "cost": 10,
+      "preview": "mrhandyflamer"
+    },
+    {
+      "name":"penetrating_laser_pistol",
+      "cost": 8,
+      "preview": "penetratinglaserpistol"
+    },
+    {
+      "name":"plasma_defender",
+      "cost": 12,
+      "preview": "plasmadefender"
     },
     {
       "name": "pipe_pistol",
-      "cost": 4
+      "cost": 2,
+      "preview": "pipepistol"
+    },
+    {
+      "name":"plasma_infused_bolt_action_pipe_pistol",
+      "cost": 4,
+      "preview": "plasmainfusedboltactionpipepistol"
+    },
+    {
+      "name": "plasma_pistol",
+      "cost": 6,
+      "preview": "plasmapistol"
+    },
+    {
+      "name":"poisoners_pipe_pistol",
+      "cost": 3,
+      "preview": "poisonerspipepistol"
+    },
+    {
+      "name": "protectrons_gaze",
+      "cost": 7,
+      "preview":"protectronsgaze"
     },
     {
       "name": "protectron_hand_laser",
-      "cost": 0
+      "cost": 10,
+      "preview": "protectronlaser"
+    },
+    {
+      "name":"pulse_gun",
+      "cost": 11,
+      "preview": "pulsegun"
+    },
+    {
+      "name":"ranger_sequoia",
+      "cost": 13,
+      "preview": "rangersequoia"
+    },
+    {
+      "name":"robobrain_mesmetron",
+      "cost": 15,
+      "restrictions":["robot"],
+      "preview":"robobrainmesmetron"
+    },
+    {
+      "name":"staggering_institute_laser_pistol",
+      "cost": 7,
+      "preview": "staggeringinstitutelaserpistol"
+    },
+    {
+      "name":"staggering_pipe_pistol",
+      "cost": 3,
+      "preview":"staggeringpipepistol"
     },
     {
       "name": "thirst_zapper_cola",
-      "cost": 4
+      "cost": 2,
+      "preview": "thirstzappercola"
+    },
+    {
+      "name":"wounding_laser_pistol",
+      "cost": 8,
+      "preview": "woundinglaserpistol"
     }
   ],
   "melee": [
     {
       "name": "assaultron_swipe",
-      "cost": 0
+      "cost": 12,
+      "preview": "assaultronswipe"
+    },
+    {
+      "name": "assaultron_blade",
+      "cost": 3,
+      "preview":"assaultronblade"
+    },
+    {
+      "name": "ballistic_fist",
+      "cost": 16,
+      "preview": "ballisticfist"
     },
     {
       "name": "baseball_bat",
-      "cost": 5
+      "cost": 1,
+      "preview": "baseballbat"
     },
     {
       "name": "baton",
-      "cost": 8
+      "cost": 10,
+      "preview": "baton"
+    },
+    {
+      "name": "blade_of_the_east",
+      "cost": 25,
+      "preview": "bladeoftheeast"
+    },
+    {
+      "name": "bloodied_board",
+      "cost": 9,
+      "preview": "bloodiedboard"
+    },
+    {
+      "name": "bloodied_pipe_wrench",
+      "cost": 7,
+      "preview": "bloodiedpipewrench"
     },
     {
       "name": "board",
-      "cost": 9
+      "cost": 8,
+      "preview": "board"
+    },
+    {
+      "name": "cattle_prod",
+      "cost": 3,
+      "preview": "cattleprod"
+    },
+    {
+      "name": "chinese_officers_sword",
+      "cost": 7,
+      "preview": "chineseofficerssword"
+    },
+    {
+      "name": "crippling_tire_iron",
+      "cost": 18,
+      "preview": "cripplingtireiron"
     },
     {
       "name": "deathclaw_crush",
-      "cost": 0
+      "cost": 0,
+      "preview": "deathclawcrush"
     },
     {
       "name": "deathclaw_gauntlet",
-      "cost": 15
+      "cost": 15,
+      "preview": "deathclawgauntlet"
+    },
+    {
+      "name": "deathclaw_head_butt",
+      "cost": 0,
+      "preview":"deathclawheadbutt"
+    },
+    {
+      "name": "deathclaw_roar",
+      "cost": 0,
+      "preview":"deathclawroar"
     },
     {
       "name": "deathclaw_swipe",
-      "cost": 0
+      "cost": 0,
+      "preview": "deathclawswipe"
+    },
+    {
+      "name": "deathclaw_tail_sweep",
+      "cost": 0,
+      "preview":"deathclawtailsweep"
+    },
+    {
+      "name": "deathclaw_trample",
+      "cost": 0,
+      "preview":"deathclawtrample"
     },
     {
       "name": "dog_bite",
-      "cost": 0
+      "cost": 0,
+      "preview": "dogbite"
+    },
+    {
+      "name": "dog_tag_fist",
+      "cost": 2,
+      "preview": "dogtagfist"
+    },
+    {
+      "name": "empty_minigun",
+      "cost": 14,
+      "preview": "emptyminigun"
     },
     {
       "name": "feral_ghoul_swipe",
-      "cost": 0
+      "cost": 0,
+      "preview": "ghoulswipe"
+    },
+    {
+      "name": "fire_axe",
+      "cost": 10,
+      "preview": "fireaxe"
     },
     {
       "name": "fire_hydrant_bat",
-      "cost": 24
+      "cost": 38,
+      "preview": "firehydrantbat"
+    },
+    {
+      "name": "fog_crawler_claw",
+      "cost": 0,
+      "preview": "fogcrawlerclaw"
+    },
+    {
+      "name": "fog_crawler_ground_pound",
+      "cost": 0,
+      "preview": "fogcrawlergroundpound"
+    },
+    {
+      "name": "freezing_machete",
+      "cost": 3,
+      "preview": "freezingmachete"
+    },
+    {
+      "name": "glowing_radroach_swarm_bite",
+      "cost": 0,
+      "preview":"glowingradroachswarmbite"
+    },
+    {
+      "name": "hand_saw_blade",
+      "cost": 6,
+      "preview":"handsawblade"
+    },
+    {
+      "name": "hand_shock",
+      "cost": 25,
+      "preview":"handshock"
+    },
+    {
+      "name": "hand_vice_grip",
+      "cost": 3,
+      "preview":"handvicegrip"
+    },
+    {
+      "name": "horrigans_knife",
+      "cost": 40,
+      "preview": "horrigansknife"
     },
     {
       "name": "hound_bite",
-      "cost": 0
+      "cost": 0,
+      "preview": "houndbite"
     },
     {
       "name": "huge_club",
-      "cost": 19
+      "cost": 21,
+      "preview": "hugeclub"
+    },
+    {
+      "name": "hunters_baseball_bat",
+      "cost": 4,
+      "preview": "huntersbaseballbat"
+    },
+    {
+      "name": "incendiary_baton",
+      "cost": 13,
+      "preview": "incendiarybaton"
+    },
+    {
+      "name": "irradiated_sledgehammer",
+      "cost": 14,
+      "preview": "irradiatedsledgehammer"
+    },
+    {
+      "name": "junkies_nail_board",
+      "cost": 4,
+      "preview": "junkiesnailboard"
     },
     {
       "name": "lead_pipe",
-      "cost": 12
+      "cost": 9,
+      "preview": "leadpipe"
     },
     {
       "name": "machete",
-      "cost": 5
+      "cost": 1,
+      "preview": "machete"
+    },
+    {
+      "name": "machete_gladius",
+      "cost": 3,
+      "preview": "machetegladius"
+    },
+    {
+      "name": "marcus_punch",
+      "cost": 0,
+      "preview": "marcuspunch"
+    },
+    {
+      "name": "matriarch_swipe",
+      "cost": 0,
+      "preview":"matriarchswipe"
+    },
+    {
+      "name": "mirelurk_claw",
+      "cost": 0,
+      "preview": "mirelurkclaw"
+    },
+    {
+      "name": "mirelurk_hatchlings_claw",
+      "cost": 0,
+      "preview": "mirelurkhatchlingsclaw"
+    },
+    {
+      "name": "mirelurk_hunter_claw",
+      "cost": 0,
+      "preview": "mirelurkhunterclaw"
+    },
+    {
+      "name": "mirelurk_queen_claw",
+      "cost": 0,
+      "preview": "mirelurkqueenclaw"
+    },
+    {
+      "name": "mole_rat_bite",
+      "cost": 0,
+      "preview": "moleratbite"
+    },
+    {
+      "name": "mongrel_bite",
+      "cost": 0,
+      "preview": "mongrelbite"
+    },
+    {
+      "name": "mr_handy_buzz_blade",
+      "cost": 7,
+      "preview": "mrhandybuzzblade"
     },
     {
       "name": "mr_handy_buzzsaw",
-      "cost": 0
+      "cost": 6,
+      "preview": "mrhandybuzzsaw"
+    },
+    {
+      "name": "nail_board",
+      "cost": 1,
+      "preview": "nailboard"
+    },
+    {
+      "name": "penetrating_lead_pipe",
+      "cost": 13,
+      "preview": "penetratingleadpipe"
     },
     {
       "name": "pipe_wrench",
-      "cost": 7
+      "cost": 6,
+      "preview": "pipewrench"
+    },
+    {
+      "name": "plasma_infused_assaultron_blade",
+      "cost": 4,
+      "preview": "plasmainfusedassaultronblade"
+    },
+    {
+      "name": "poisoners_ripper",
+      "cost": 7,
+      "preview": "poisonersripper"
+    },
+    {
+      "name": "power_fist",
+      "cost": 3,
+      "preview": "powerfist"
+    },
+    {
+      "name": "putrid_glowing_one_swipe",
+      "cost": 0,
+      "preview": "putridswipe"
     },
     {
       "name": "radroach_swarm_bite",
-      "cost": 0
+      "cost": 0,
+      "preview": "radroachbite"
     },
     {
-      "name": "radroach_pincers_sting",
-      "cost": 0
+      "name": "rebar_club",
+      "cost": 18,
+      "preview": "rebarclub"
+    },
+    {
+      "name": "relentless_chinese_officers_sword",
+      "cost": 9,
+      "preview": "relentlesschineseofficerssword"
     },
     {
       "name": "ripper",
-      "cost": 7
+      "cost": 6,
+      "preview": "ripper"
+    },
+    {
+      "name": "shishkebab",
+      "cost": 15,
+      "preview": "shishkebab"
+    },
+    {
+      "name": "softshell_mirelurk_claw",
+      "cost": 0,
+      "preview": "softshellmirelurkclaw"
     },
     {
       "name": "sledgehammer",
-      "cost": 12
+      "cost": 12,
+      "preview": "sledgehammer"
+    },
+    {
+      "name": "spear",
+      "cost": 4,
+      "preview": "spear"
+    },
+    {
+      "name": "staggering_tire_iron",
+      "cost": 16,
+      "preview": "staggeringtireiron"
     },
     {
       "name": "stun_baton",
-      "cost": 30
+      "cost": 25,
+      "preview": "stunbaton"
     },
     {
       "name": "super_sledge",
-      "cost": 30
+      "cost": 30,
+      "preview": "supersledge"
+    },
+    {
+      "name": "thermic_lance",
+      "cost": 35,
+      "preview": "thermiclance"
     },
     {
       "name": "tire_iron",
-      "cost": 12
+      "cost": 12,
+      "preview": "tireiron"
+    },
+    {
+      "name": "troubleshooters_nail_board",
+      "cost": 2,
+      "preview": "troubleshootersnailboard"
+    },
+    {
+      "name": "troubleshooters_pipe_wrench",
+      "cost": 7,
+      "preview": "troubleshooterspipewrench"
+    },
+    {
+      "name": "vertibird_blade",
+      "cost": 22,
+      "preview": "vertibirdblade"
+    },
+    {
+      "name": "weak_feral_ghoul_swipe",
+      "cost": 0,
+      "preview": "weakghoulswipe"
+    },
+    {
+      "name": "bloated_glowing_one_swipe",
+      "cost": 0,
+      "preview": "bloatedswipe"
+    },
+    {
+      "name": "radscorpion_pincers_and_sting",
+      "cost": 0,
+      "preview": "radscorpionpincerssting"
+    },
+    {
+      "name": "wounding_machete",
+      "cost": 3,
+      "preview":"woundingmachete"
+    },
+    {
+      "name": "young_deathclaw_crush",
+      "cost": 0,
+      "preview": "youngdeathclawcrush"
+    },
+    {
+      "name": "young_deathclaw_swipe",
+      "cost": 0,
+      "preview": "youngdeathclawswipe"
     }
   ],
   "thrown": [
     {
       "name": "baseball_grenade",
-      "cost": 6
+      "cost": 5,
+      "preview": "baseballgrenade"
     },
     {
       "name": "behemoth_rock_throw",
-      "cost": 12
+      "cost": 0,
+      "preview": "behemothrockthrow"
+    },
+    {
+      "name": "centaur_lash",
+      "cost": 0,
+      "preview": "centaurlash"
     },
     {
       "name": "cryo_grenade",
-      "cost": 7
+      "cost": 6,
+      "preview": "cryogrenade"
     },
     {
       "name": "fragmentation_grenade",
-      "cost": 7
+      "cost": 6,
+      "preview": "fragmentationgrenade"
+    },
+    {
+      "name": "incendiary_grenade",
+      "cost": 7,
+      "preview": "incendiarygrenade"
+    },
+    {
+      "name": "long_fuse_dynamite",
+      "cost": 3,
+      "preview": "longfusedynamite"
+    },
+    {
+      "name":"mirelurk_queen_brood",
+      "cost": 0,
+      "preview": "mirelurkqueenbrood"
     },
     {
       "name": "molotov_cocktail",
-      "cost": 6
+      "cost": 4,
+      "preview": "molotovcocktail"
+    },
+    {
+      "name":"plasma_grenade",
+      "cost": 7,
+      "preview": "plasmagrenade"
     },
     {
       "name": "pulse_grenade",
-      "cost": 5
+      "cost": 3,
+      "preview": "pulsegrenade"
+    },
+    {
+      "name":"stun_grenade",
+      "cost": 4,
+      "preview": "stungrenade"
     },
     {
       "name": "suicider_mini_nuke",
-      "cost": 0
+      "restrictions":["suicider"],
+      "cost": 30,
+      "preview": "suicidermininuke"
+    },
+    {
+      "name": "synth_relay_grenade",
+      "cost": 18,
+      "preview": "synthgrenade"
+    },
+    {
+      "name": "throwing_spear",
+      "cost": 3,
+      "preview": "throwingspear"
+    },
+    {
+      "name":"weak_behemoth_rock_throw",
+      "cost": 0,
+      "preview":"weakbehemothrockthrow"
     }
   ],
   "mines": [
     {
       "name": "bottlecap_mine",
-      "cost": 20
+      "cost": 10,
+      "preview": "bottlecapmine"
+    },
+    {
+      "name": "c4_plastic_explosive",
+      "cost": 10,
+      "preview": "c4plasticexplosive"
     },
     {
       "name": "fragmentation_mine",
-      "cost": 10
+      "cost": 5,
+      "preview": "fragmentationmine"
+    },
+    {
+      "name": "pulse_mine",
+      "cost": 4,
+      "preview": "pulsemine"
+    }
+  ],
+  "power_armor": [
+    {
+      "name": "ncr_salvaged_power_armor",
+      "cost": 26,
+      "preview": "ncrsalvagedpowerarmor"
+    },
+    {
+      "name": "enclave_power_armor",
+      "restrictions":["!super_mutant"],
+      "cost": 44,
+      "preview": "enclavepowerarmor"
+    },
+    {
+      "name": "hellfire_power_armor",
+      "restrictions":["!super_mutant"],
+      "cost": 52,
+      "preview": "hellfirearmor"
+    },
+    {
+      "name": "power_armor_frame",
+      "restrictions":["!super_mutant"],
+      "cost": 15,
+      "preview": "powerarmorframe"
+    },
+    {
+      "name": "raider_power_armor",
+      "restrictions":["!super_mutant"],
+      "cost": 33,
+      "preview": "raiderpowerarmor"
+    },
+    {
+      "name": "t45_power_armor",
+      "restrictions":["!super_mutant"],
+      "cost": 38,
+      "preview": "t45"
+    },
+    {
+      "name": "t51_power_armor",
+      "restrictions":["!super_mutant"],
+      "cost": 54,
+      "preview": "t51"
+    },
+    {
+      "name": "t60_power_armor",
+      "restrictions":["!super_mutant"],
+      "cost": 70,
+      "preview": "t60"
+    },
+    {
+      "name": "t60f_power_armor",
+      "restrictions":["!super_mutant"],
+      "cost": 95
+    },
+    {
+      "name": "x01_power_armor",
+      "restrictions":["!super_mutant"],
+      "cost": 82,
+      "preview": "x01"
     }
   ],
   "armor": [
     {
       "name": "armored_pads",
-      "cost": 12
+      "cost": 13,
+      "preview": "armoredpads"
     },
     {
       "name": "army_helmet",
-      "cost": 15
+      "cost": 17,
+      "preview": "armyhelmet"
+    },
+    {
+      "name": "bladed_helmet",
+      "restrictions":["super_mutant"],
+      "cost": 7,
+      "preview": "bladedhelmet"
     },
     {
       "name": "chain_dog_collar",
-      "cost": 13
+      "restrictions":["dog"],
+      "cost": 14,
+      "preview": "chaindogcollar"
     },
     {
       "name": "chains",
-      "cost": 8
+      "restrictions":["super_mutant"],
+      "cost": 7,
+      "preview": "chains"
+    },
+    {
+      "name": "cleanroom_suit",
+      "cost": 25,
+      "preview": "cleanroomsuit"
     },
     {
       "name": "combat_armor",
-      "cost": 18
+      "cost": 13,
+      "preview": "combatarmor"
+    },
+    {
+      "name": "commando_chest_piece",
+      "cost": 15,
+      "preview": "commandochestpiece"
+    },
+    {
+      "name": "corrugated_plates",
+      "cost": 7,
+      "restrictions":["creature"],
+      "preview":"corrugatedplates"
     },
     {
       "name": "damaged_hazmat_suit",
-      "cost": 15
+      "cost": 3,
+      "preview": "damagedhazmatsuit"
+    },
+    {
+      "name": "damaged_legate_armor",
+      "cost": 23,
+      "preview": "damagedlegatearmor"
+    },
+    {
+      "name": "environmental_suit",
+      "cost": 15,
+      "preview": "environmentalsuit"
     },
     {
       "name": "freefall_leg_armor",
-      "cost": 15
+      "cost": 2,
+      "preview": "freefalllegarmor"
+    },
+    {
+      "name": "gecko_backed_metal_armor",
+      "cost": 16,
+      "preview": "geckobackedmetalarmor"
     },
     {
       "name": "hazmat_suit",
-      "cost": 20
+      "cost": 8,
+      "preview": "hazmatsuit"
     },
     {
       "name": "heavy_gauntlets",
-      "cost": 15
+      "restrictions":["super_mutant"],
+      "cost": 16,
+      "preview": "heavygauntlets"
     },
     {
-      "name": "power_armor_frame",
-      "cost": 15
+      "name": "heavy_raider_armor",
+      "cost": 21,
+      "preview": "heavyraiderarmor"
+    },
+    {
+      "name": "heavy_synth_armor",
+      "cost": 28,
+      "preview": "heavysyntharmor"
+    },
+    {
+      "name": "mechanist_armor_and_helmet",
+      "cost": 43,
+      "restrictions":["!super_mutant"],
+      "preview": "mechanistarmorandhelmet"
+    },
+    {
+      "name": "protectors_right_arm_guard",
+      "cost": 10,
+      "preview": "protectorsrightarmguard"
     },
     {
       "name": "rocks_bladed_helm",
-      "cost": 23
+      "cost": 18,
+      "preview":"rocksbladedhelm"
+    },
+    {
+      "name": "spiked_harness",
+      "cost": 10,
+      "restrictions":["creature"],
+      "preview":"spikedharness"
     },
     {
       "name": "sturdy_combat_armor",
-      "cost": 30
+      "cost": 21,
+      "preview": "sturdycombatarmor"
     },
     {
       "name": "sturdy_leather_armor",
-      "cost": 23
+      "cost": 16,
+      "preview": "sturdyleatherarmor"
     },
     {
-      "name": "t45_power_armor",
-      "cost": 36
+      "name": "sturdy_metal_armor",
+      "cost": 18,
+      "preview": "sturdymetalarmor"
     },
     {
-      "name": "t51_power_armor",
-      "cost": 54
-    },
-    {
-      "name": "t60_power_armor",
-      "cost": 72
+      "name": "tesla_coil_harness",
+      "cost": 7,
+      "restrictions":["creature"],
+      "preview":"teslacoilharness"
     }
   ],
   "clothing": [
     {
-      "name": "aviator_cap",
-      "cost": 20
+      "name": "1st_recon_beret",
+      "cost": 12,
+      "preview": "1streconberet"
+    },
+    {
+      "name": "airship_captains_hat",
+      "cost": 5,
+      "preview": "airshipcaptainshat"
+    },
+    {
+      "name": "assault_gas_mask",
+      "cost": 2,
+      "preview": "assaultgasmask"
     },
     {
       "name": "atom_cats_jacket_and_jeans",
-      "cost": 10
+      "cost": 12,
+      "preview": "atomcatjacketandjeans"
+    },
+    {
+      "name": "aviator_cap",
+      "cost": 16,
+      "restrictions":["super_mutant"],
+      "preview": "aviatorcap"
+    },
+    {
+      "name": "baseball_cap",
+      "cost": 5,
+      "preview": "baseballcap"
+    },
+    {
+      "name": "battered_fedora",
+      "cost": 12,
+      "preview": "batteredfedora"
     },
     {
       "name": "bowler_hat",
-      "cost": 15
+      "restrictions":["robot"],
+      "cost": 7,
+      "preview": "bowlerhat"
+    },
+    {
+      "name": "brotherhood_of_steel_hood",
+      "cost": 7,
+      "preview": "brotherhoodofsteelhood"
     },
     {
       "name": "camoflage",
-      "cost": 20
+      "cost": 22,
+      "preview": "camoflage"
     },
     {
       "name": "dirty_postman_uniform",
-      "cost": 10
+      "cost": 12,
+      "preview": "dirtypostmanuniform"
     },
     {
       "name": "dog_bandana",
-      "cost": 10
+      "restrictions":["dog"],
+      "cost": 7,
+      "preview": "dogbandana"
+    },
+    {
+      "name": "enclave_officers_hat",
+      "cost": 5,
+      "preview":"enclaveofficershat"
     },
     {
       "name": "eyeglasses",
-      "cost": 4
+      "cost": 7,
+      "preview": "eyeglasses"
+    },
+    {
+      "name": "institute_division_head_coat",
+      "cost": 7,
+      "preview": "institutedivisionheadcoat"
+    },
+    {
+      "name": "institute_lab_coat",
+      "cost": 7,
+      "preview": "institutelabcoat"
+    },
+    {
+      "name": "leg_guards",
+      "cost": 8,
+      "preview": "legguards"
+    },
+    {
+      "name": "limb_braces",
+      "cost": 12,
+      "restrictions":["creature"],
+      "preview":"limbbraces"
+    },
+    {
+      "name": "magnifying_visor",
+      "cost": 8,
+      "preview": "magnifyingvisor"
     },
     {
       "name": "military_fatigues",
-      "cost": 5
+      "cost": 7,
+      "preview": "militaryfatigues"
+    },
+    {
+      "name": "mirelurk_carapace",
+      "cost": 23,
+      "restrictions":["!creature"],
+      "preview":"mirelurkcarapace"
+    },
+    {
+      "name": "ncr_engineer_jumpsuit",
+      "cost": 15,
+      "preview": "ncrengineerjumpsuit"
     },
     {
       "name": "patched_three_piece_suit",
-      "cost": 8
+      "cost": 12,
+      "preview": "patchedthreepiecesuit"
+    },
+    {
+      "name": "red_flight_helmet",
+      "cost": 5,
+      "preview": "redflighthelmet"
     },
     {
       "name": "road_goggles",
-      "cost": 4
+      "cost": 7,
+      "preview": "roadgoggles"
     },
     {
       "name": "robotic_bits",
-      "cost": 5
+      "cost": 7,
+      "preview": "roboticbits"
     },
     {
       "name": "sea_captains_hat",
-      "cost": 10
+      "cost": 7,
+      "preview": "seacaptainshat"
+    },
+    {
+      "name": "shoulder_rags",
+      "cost": 10,
+      "restrictions":["super_mutant"],
+      "preview": "shoulderrags"
+    },
+    {
+      "name": "spiked_muzzle",
+      "restrictions":["dog"],
+      "cost": 3,
+      "preview": "spikedmuzzle"
+    },
+    {
+      "name": "tricorn_hat",
+      "cost": 7,
+      "preview": "tricornhat"
+    },
+    {
+      "name": "triggerman_bowler",
+      "cost": 5,
+      "preview": "triggermanbowler"
     },
     {
       "name": "vault_111_jumpsuit",
-      "cost": 10
+      "restrictions":["!super_mutant"],
+      "cost": 12,
+      "preview": "vault111jumpsuit"
     }
   ],
   "chems": [
     {
       "name": "addictol",
-      "cost": 15
+      "cost": 3,
+      "preview": "addictol"
+    },
+    {
+      "name": "anti-venom_balm",
+      "cost": 9,
+      "preview": "antivenombalm"
     },
     {
       "name": "berry_mentats",
-      "cost": 25
+      "cost": 13,
+      "preview": "berrymentats"
     },
     {
       "name": "buffout",
-      "cost": 30
+      "cost": 14,
+      "preview": "buffout"
+    },
+    {
+      "name": "bufftats",
+      "cost": 25,
+      "preview":"bufftats"
     },
     {
       "name": "calmex",
-      "cost": 30
+      "cost": 12,
+      "preview": "calmex"
     },
     {
       "name": "day_tripper",
-      "cost": 17
+      "cost": 6,
+      "preview": "daytripper"
+    },
+    {
+      "name": "doctors_bag",
+      "cost": 12
     },
     {
       "name": "fury",
-      "cost": 30
+      "cost": 10,
+      "preview": "fury"
+    },
+    {
+      "name": "healing_powder",
+      "cost": 15,
+      "preview": "healingpowder"
     },
     {
       "name": "jet",
-      "cost": 30
+      "cost": 13,
+      "preview": "jet"
     },
     {
       "name": "med-x",
-      "cost": 25
+      "cost": 12,
+      "preview": "medx"
     },
     {
       "name": "mentats",
-      "cost": 20
+      "cost": 11,
+      "preview": "mentats"
     },
     {
       "name": "mysterious_serum",
-      "cost": 30
+      "cost": 15,
+      "preview": "mysteriousserum"
     },
     {
       "name": "orange_mentats",
-      "cost": 30
+      "cost": 14,
+      "preview": "orangementats"
     },
     {
       "name": "overdrive",
-      "cost": 30
+      "cost": 13,
+      "preview": "overdrive"
     },
     {
       "name": "psycho",
-      "cost": 30
+      "cost": 13,
+      "preview": "psychochem"
+    },
+    {
+      "name": "psychobuff",
+      "cost": 20,
+      "preview": "psychobuff"
     },
     {
       "name": "radaway",
-      "cost": 30
+      "cost": 10,
+      "preview": "radaway"
     },
     {
       "name": "rad-x",
-      "cost": 20
+      "cost": 5,
+      "preview": "radx"
+    },
+    {
+      "name": "rebound",
+      "cost": 8,
+      "preview": "rebound"
     },
     {
       "name": "refreshing_beverage",
-      "cost": 80
+      "cost": 37,
+      "preview": "refreshingbeverage"
+    },
+    {
+      "name": "spark",
+      "cost": 18,
+      "preview": "spark"
+    },
+    {
+      "name": "steady",
+      "cost": 8,
+      "preview": "steady"
     },
     {
       "name": "stimpak",
-      "cost": 58
+      "cost": 28,
+      "preview": "stimpak"
+    },
+    {
+      "name": "ultra_jet",
+      "cost": 25,
+      "preview": "ultrajet"
+    },
+    {
+      "name": "x111_compound",
+      "cost": 30,
+      "preview": "x111compound"
     },
     {
       "name": "x-cell",
-      "cost": 37
+      "cost": 17,
+      "preview": "xcell"
     }
   ],
   "alcohol": [
     {
+      "name":"atomic_cocktail",
+      "cost": 2
+    },
+    {
+      "name": "beer",
+      "cost": 9,
+      "preview": "beer"
+    },
+    {
       "name": "bourbon",
-      "cost": 10
+      "cost": 6,
+      "preview": "bourbon"
+    },
+    {
+      "name": "dirty_wastelander",
+      "cost": 7,
+      "preview": "dirtywastelander"
     },
     {
       "name": "ice_cold_gwinett_ale",
-      "cost": 14
+      "cost": 3,
+      "preview": "icecoldgwinnettale"
+    },
+    {
+      "name": "moonshine",
+      "cost": 3,
+      "preview": "moonshine"
     },
     {
       "name": "rum",
-      "cost": 13
+      "cost": 5,
+      "preview": "rum"
     },
     {
       "name": "vodka",
-      "cost": 13
+      "cost": 6,
+      "preview": "vodka"
     },
     {
       "name": "whiskey",
-      "cost": 12
+      "cost": 4,
+      "preview": "whiskey"
+    },
+    {
+      "name": "wine",
+      "cost": 2,
+      "preview": "wine"
     }
   ],
-  "heroes_and_leaders": [
+  "heroic": [
+    {
+      "name": "clunky",
+      "cost": 0.8,
+      "restrictions":["robot"],
+      "preview":"clunky"
+    },
     {
       "name": "heroic",
-      "cost": 60
+      "cost": 60,
+      "preview": "heroic"
+    },
+    {
+      "name": "unpredictable",
+      "cost": 1.15
+    },
+    {
+      "name": "wild",
+      "cost": 0.8,
+      "restrictions":["creature"],
+      "preview":"wild"
+    }
+  ],
+  "leader": [
+    {
+      "name": "beloved",
+      "cost": 16,
+      "preview": "beloved"
     },
     {
       "name": "berserker",
-      "cost": 20
+      "cost": 8,
+      "preview": "berserker"
     },
     {
       "name": "blitzer",
-      "cost": 30
+      "cost": 4,
+      "preview": "blitzer"
     },
     {
       "name": "bodyguard",
-      "cost": 25
+      "cost": 12,
+      "preview": "bodyguard"
     },
     {
       "name": "brawler",
-      "cost": 15
+      "cost": 10,
+      "preview": "brawler"
     },
     {
       "name": "bruiser",
-      "cost": 40
+      "cost": 13,
+      "preview": "bruiser"
     },
     {
       "name": "commander",
-      "cost": 55
+      "cost": 18,
+      "preview": "commander"
+    },
+    {
+      "name": "co-ordinator",
+      "cost": 18,
+      "preview": "coordinator"
+    },
+    {
+      "name": "creature_controller",
+      "restrictions":["!robot","!creature","!dog"],
+      "cost": 5,
+      "preview": "creaturecontroller"
     },
     {
       "name": "defender",
-      "cost": 60
+      "cost": 28,
+      "preview": "defender"
     },
     {
       "name": "dweller",
-      "cost": 13
+      "cost": 8,
+      "preview": "dweller"
     },
     {
       "name": "fusilier",
-      "cost": 30
+      "cost": 12,
+      "preview": "fusilier"
+    },
+    {
+      "name": "gatherer",
+      "cost": 15,
+      "preview": "gatherer"
+    },
+    {
+      "name": "grenadier",
+      "cost": 4,
+      "preview": "grenadier"
     },
     {
       "name": "hunter",
-      "cost": 15
+      "cost": 10,
+      "preview": "hunter"
     },
     {
       "name": "old_timer",
-      "cost": 17
+      "cost": 3,
+      "preview": "oldtimer"
+    },
+    {
+      "name": "procurer",
+      "cost": 15,
+      "preview": "procurer"
+    },
+    {
+      "name": "robot_controller",
+      "restrictions":["!robot","!creature","!dog"],
+      "cost": 5,
+      "preview": "robotcontroller"
+    },
+    {
+      "name": "selfless",
+      "cost": 5,
+      "preview": "selfless"
+    },
+    {
+      "name": "skipper",
+      "cost": 15,
+      "preview":"skipper"
+    },
+    {
+      "name": "stalker",
+      "cost": 8,
+      "preview": "stalker"
+    },
+    {
+      "name": "synth_expert",
+      "cost": 12,
+      "preview": "synthexpert"
+    },
+    {
+      "name": "tactician",
+      "cost": 18,
+      "preview": "tactician"
     },
     {
       "name": "tech",
-      "cost": 20
+      "cost": 9,
+      "preview": "tech"
+    },
+    {
+      "name": "tech_chief",
+      "cost": 17,
+      "preview": "techchief"
     },
     {
       "name": "thief",
-      "cost": 10
+      "cost": 7,
+      "preview": "thief"
     },
     {
       "name": "veteran",
-      "cost": 25
+      "cost": 13,
+      "preview": "veteran"
     },
     {
       "name": "warden",
-      "cost": 30
+      "cost": 12,
+      "preview": "warden"
     },
     {
       "name": "wasteland_searcher",
-      "cost": 7
+      "cost": 5,
+      "preview": "wastelandsearcher"
     },
     {
       "name": "wrestler",
-      "cost": 15
+      "cost": 7,
+      "preview": "wrestler"
+    }
+  ],
+  "perks":[
+    {
+      "name": "action_person",
+      "cost": 10,
+      "preview": "actionperson"
+    },
+    {
+      "name":"adamantion_skeleton",
+      "cost":8,
+      "preview": "adamantiumskeleton"
+    },
+    {
+      "name":"animal_friend",
+      "cost":8,
+      "preview":"animalfriend1"
+    },
+    {
+      "name":"animal_friend_2",
+      "cost":6,
+      "preview":"animalfriend2"
+    },
+    {
+      "name":"animal_friend_3",
+      "cost":4,
+      "preview":"animalfriend3"
+    },
+    {
+      "name": "armorer",
+      "cost": 3,
+      "preview": "armorer"
+    },
+    {
+      "name": "attack_dog",
+      "cost": 10,
+      "preview": "attackdog"
+    },
+    {
+      "name": "basher",
+      "cost": 5,
+      "preview": "basher"
+    },
+    {
+      "name": "big_leagues",
+      "cost": 5,
+      "preview": "bigleagues"
+    },
+    {
+      "name": "blacksmith",
+      "cost": 3,
+      "preview": "blacksmith"
+    },
+    {
+      "name": "blitz",
+      "cost": 3,
+      "preview": "blitz"
+    },
+    {
+      "name": "bloody_mess",
+      "cost": 4,
+      "preview": "bloodymess"
+    },
+    {
+      "name": "chem_resistant",
+      "cost": 3,
+      "preview": "chemresistant"
+    },
+    {
+      "name": "chemist",
+      "cost": 6,
+      "preview": "chemist"
+    },
+    {
+      "name":"collaborative",
+      "cost":15,
+      "preview": "collaborative"
+    },
+    {
+      "name":"command_act",
+      "cost":13,
+      "restrictions":["creature"],
+      "preview":"commandact"
+    },
+    {
+      "name":"command_pack_assault",
+      "cost":6,
+      "restrictions":["creature"],
+      "preview":"commandpackassault"
+    },
+    {
+      "name":"command_attack",
+      "cost":8,
+      "restrictions":["creature"],
+      "preview":"commandattack"
+    },
+    {
+      "name":"command_pack_attack",
+      "cost":5,
+      "restrictions":["creature"],
+      "preview":"commandpackattack"
+    },
+    {
+      "name":"command_counter",
+      "cost":4,
+      "restrictions":["creature"],
+      "preview":"commandcounter"
+    },
+    {
+      "name":"command_find",
+      "cost":8,
+      "restrictions":["creature"],
+      "preview":"commandfind"
+    },
+    {
+      "name":"command_guided_strike",
+      "cost":8,
+      "restrictions":["creature"],
+      "preview":"commandguidedstrike"
+    },
+    {
+      "name":"command_heel",
+      "cost":8,
+      "restrictions":["creature"],
+      "preview":"commandheel"
+    },
+    {
+      "name":"command_impetuous",
+      "cost":7,
+      "restrictions":["creature"],
+      "preview":"commandimpetuous"
+    },
+    {
+      "name":"command_protect",
+      "cost":4,
+      "restrictions":["creature"],
+      "preview":"commandprotect"
+    },
+    {
+      "name":"command_scatter",
+      "cost":9,
+      "restrictions":["creature"],
+      "preview":"commandscatter"
+    },
+    {
+      "name":"command_speed",
+      "cost":8,
+      "restrictions":["creature"],
+      "preview":"commandspeed"
+    },
+    {
+      "name":"command_take_it",
+      "cost":6,
+      "restrictions":["creature"],
+      "preview":"commandtakeit"
+    },
+    {
+      "name": "concentrated_fire",
+      "cost": 9,
+      "preview": "concentratedfire"
+    },
+    {
+      "name":"companion",
+      "cost":12,
+      "preview": "companion"
+    },
+    {
+      "name":"creature_trainer",
+      "cost":4,
+      "preview":"creaturetrainer"
+    },
+    {
+      "name": "demolition_expert",
+      "cost": 5,
+      "preview": "demolitionexpert"
+    },
+    {
+      "name": "entangle",
+      "cost": 8,
+      "preview": "entangle"
+    },
+    {
+      "name": "finesse",
+      "cost": 15,
+      "preview": "finesse"
+    },
+    {
+      "name":"fire_resistant",
+      "cost":7,
+      "preview": "fireresistant"
+    },
+    {
+      "name": "ghoulish",
+      "cost": 5,
+      "preview": "ghoulish"
+    },
+    {
+      "name": "gun_nut_heavy",
+      "cost": 3,
+      "preview": "gunnutheavy"
+    },
+    {
+      "name": "gun_nut_pistol",
+      "cost": 3,
+      "preview": "gunnutpistol"
+    },
+    {
+      "name": "gun_nut_rifle",
+      "cost": 3,
+      "preview": "gunnutrifle"
+    },
+    {
+      "name": "gunslinger",
+      "cost": 5,
+      "preview": "gunslinger"
+    },
+    {
+      "name":"hack_robot",
+      "cost":15,
+      "preview": "hackrobot"
+    },
+    {
+      "name": "hacker",
+      "cost": 4,
+      "preview": "hacker"
+    },
+    {
+      "name": "heavy_gunner",
+      "cost": 5,
+      "preview": "heavygunner"
+    },
+    {
+      "name":"hit_the_deck",
+      "cost":3,
+      "preview": "hitthedeck"
+    },
+    {
+      "name": "huntsman",
+      "cost": 7,
+      "preview": "huntsman"
+    },
+    {
+      "name": "impatient",
+      "cost": 13,
+      "preview": "impatient"
+    },
+    {
+      "name":"irresponsible",
+      "cost":10,
+      "preview": "irresponsible"
+    },
+    {
+      "name": "lead_belly",
+      "cost": 5,
+      "preview": "leadbelly"
+    },
+    {
+      "name": "life_giver",
+      "cost": 7,
+      "preview": "lifegiver"
+    },
+    {
+      "name":"light_step",
+      "cost":5,
+      "preview": "lightstep"
+    },
+    {
+      "name": "local_leader",
+      "cost": 5,
+      "preview": "localleader"
+    },
+    {
+      "name": "local_leader_2",
+      "cost": 5,
+      "preview": "localleader"
+    },
+    {
+      "name": "locksmith",
+      "cost": 4,
+      "preview": "locksmith"
+    },
+    {
+      "name": "lone_wanderer",
+      "cost": 22,
+      "preview": "lonewanderer"
+    },
+    {
+      "name": "medic",
+      "cost": 4,
+      "preview": "medic"
+    },
+    {
+      "name": "mend_robot",
+      "cost": 8,
+      "preview":"mendrobot"
+    },
+    {
+      "name": "moving_target",
+      "cost": 8,
+      "preview": "movingtarget"
+    },
+    {
+      "name": "mysterious_stranger_1",
+      "cost": 6,
+      "preview": "mysteriousstranger"
+    },
+    {
+      "name": "mysterious_stranger_2",
+      "cost": 17,
+      "preview": "mysteriousstranger2"
+    },
+    {
+      "name": "mysterious_stranger_3",
+      "cost": 3,
+      "preview": "mysteriousstranger3"
+    },
+    {
+      "name": "nerd_rage",
+      "cost": 6,
+      "preview": "nerdrage"
+    },
+    {
+      "name": "ninja",
+      "cost": 6,
+      "preview": "ninja"
+    },
+    {
+      "name": "nuclear_physicist",
+      "cost": 10,
+      "preview": "nuclearphysicist"
+    },
+    {
+      "name": "pack_leader",
+      "cost": 23,
+      "preview": "packleader"
+    },
+    {
+      "name": "pain_train",
+      "cost": 1,
+      "preview": "paintrain"
+    },
+    {
+      "name": "penetrator",
+      "cost": 15,
+      "preview": "penetrator"
+    },
+    {
+      "name":"program_act",
+      "cost": 13,
+      "restrictions":["robot"],
+      "preview":"programact"
+    },
+    {
+      "name":"program_aggressive",
+      "cost": 5,
+      "restrictions":["robot"],
+      "preview":"programaggressive"
+    },
+    {
+      "name":"program_attack",
+      "cost": 8,
+      "restrictions":["robot"],
+      "preview":"programattack"
+    },
+    {
+      "name":"program_coordinated",
+      "cost": 4,
+      "restrictions":["robot"],
+      "preview":"programcoordinated"
+    },
+    {
+      "name":"program_hack",
+      "cost": 8,
+      "restrictions":["robot"],
+      "preview":"programhack"
+    },
+    {
+      "name":"program_intercept",
+      "cost": 4,
+      "restrictions":["robot"],
+      "preview":"programintercept"
+    },
+    {
+      "name":"program_pick",
+      "cost": 8,
+      "restrictions":["robot"],
+      "preview":"programpick"
+    },
+    {
+      "name":"program_return",
+      "cost": 8,
+      "restrictions":["robot"],
+      "preview":"programreturn"
+    },
+    {
+      "name":"program_speed",
+      "cost": 8,
+      "restrictions":["robot"],
+      "preview":"programspeed"
+    },
+    {
+      "name":"program_spread",
+      "cost": 9,
+      "restrictions":["robot"],
+      "preview":"programspread"
+    },
+    {
+      "name":"program_synchronized",
+      "cost": 7,
+      "restrictions":["robot"],
+      "preview":"programsynchronized"
+    },
+    {
+      "name":"program_volley",
+      "cost": 7,
+      "restrictions":["robot"],
+      "preview":"programvolley"
+    },
+    {
+      "name":"pyromaniac",
+      "cost": 10,
+      "preview": "pyromaniac"
+    },
+    {
+      "name": "quick_thinking",
+      "cost": 4,
+      "preview": "quickthinking"
+    },
+    {
+      "name": "rad_resistant",
+      "cost": 3,
+      "preview": "radresistant"
+    },
+    {
+      "name": "refractor",
+      "cost": 7,
+      "preview": "refractor"
+    },
+    {
+      "name": "rifle_man",
+      "cost": 5,
+      "preview": "rifleman"
+    },
+    {
+      "name":"robotics_expert",
+      "cost": 4,
+      "preview":"roboticsexpert"
+    },
+    {
+      "name":"shotgun_surgeon",
+      "cost":6,
+      "preview": "shotgundevotee"
+    },
+    {
+      "name": "sneak",
+      "cost": 3,
+      "preview": "sneak"
+    },
+    {
+      "name": "steady_aim",
+      "cost": 8,
+      "preview": "steadyaim"
+    },
+    {
+      "name":"strong_constitution",
+      "cost": 5,
+      "preview": "strongconstitution"
+    },
+    {
+      "name": "stun_resistant",
+      "cost": 13,
+      "preview": "stunresistant"
+    },
+    {
+      "name": "toughness",
+      "cost": 7,
+      "preview": "toughness"
+    },
+    {
+      "name":"travel_light",
+      "cost":7
+    },
+    {
+      "name":"weapon_handling",
+      "cost":5
+    }
+  ],
+  "mods":[
+    {
+      "name": "abraxo_paint",
+      "cost": 12,
+      "types":["power_armor"],
+      "preview": "abraxopaint"
+    },
+    {
+      "name": "aligned_sights",
+      "cost": 12,
+      "types":["pistols","rifles"],
+      "preview": "alignedsights"
+    },
+    {
+      "name": "arm_breaker",
+      "cost": 5,
+      "types":["melee"],
+      "preview": "armbreaker"
+    },
+    {
+      "name": "armor_piercing_receiver",
+      "cost": 6,
+      "types":[ "rifles", "pistols"],
+      "preview": "armorpiercingreceiver"
+    },
+    {
+      "name": "asbestos_lining",
+      "cost": 5,
+      "types":[ "armor"],
+      "preview": "asbestoslining"
+    },
+    {
+      "name": "balanced",
+      "cost": 9,
+      "types":["pistols"],
+      "preview": "balanced"
+    },
+    {
+      "name": "barbed",
+      "cost": 3,
+      "types":["melee"],
+      "preview": "barbed"
+    },
+    {
+      "name": "ballistic_weave",
+      "cost": 6,
+      "types":["armor"],
+      "preview": "ballisticweave"
+    },
+    {
+      "name": "bayonet",
+      "cost": 3,
+      "types":["rifles"],
+      "preview": "bayonet"
+    },
+    {
+      "name": "biocomm_mesh",
+      "cost": 6,
+      "types":["armor"],
+      "preview": "biocommmesh"
+    },
+    {
+      "name": "boosted_servos",
+      "cost": 5,
+      "types":["power_armor"],
+      "preview": "boostedservos"
+    },
+    {
+      "name": "braced",
+      "cost": 5,
+      "types":["armor"],
+      "preview": "braced"
+    },
+    {
+      "name": "comfort_grip",
+      "cost": 10,
+      "types":[ "rifles", "pistols"],
+      "preview": "comfortgrip"
+    },
+    {
+      "name": "conditioning_active",
+      "cost": 8,
+      "types":["creature"],
+      "preview":"conditioningactive"
+    },  
+    {
+      "name": "conditioning_adrenaline",
+      "cost": 3,
+      "types":["creature"],
+      "preview":"conditioningadrenaline"
+    },
+    {
+      "name": "conditioning_ankle_biter",
+      "cost": 8,
+      "types":["creature"],
+      "preview":"conditioninganklebiter"
+    },
+    {
+      "name": "conditioning_arm_breaker",
+      "cost": 10,
+      "types":["creature"],
+      "preview":"conditioningarmbreaker"
+    },
+    {
+      "name": "conditioning_champion",
+      "cost": 10,
+      "types":["creature"],
+      "preview":"conditioningchampion"
+    },
+    {
+      "name": "conditioning_chancer",
+      "cost": 12,
+      "types":["creature"],
+      "preview":"conditioningchancer"
+    },
+    {
+      "name": "conditioning_chief",
+      "cost": 15,
+      "types":["creature"],
+      "preview":"conditioningchief"
+    },
+    {
+      "name": "conditioning_crafty",
+      "cost": 8,
+      "types":["creature"],
+      "preview":"conditioningcrafty"
+    },
+    {
+      "name": "conditioning_dash",
+      "cost": 9,
+      "types":["creature"],
+      "preview":"conditioningdash"
+    },
+    {
+      "name": "conditioning_fast",
+      "cost": 5,
+      "types":["creature"],
+      "preview":"conditioningfast"
+    },
+    {
+      "name": "conditioning_ferocious",
+      "cost": 3,
+      "types":["creature"],
+      "preview":"conditioningferocious"
+    },
+    {
+      "name": "conditioning_haymaker",
+      "cost": 12,
+      "types":["creature"],
+      "preview":"conditioninghaymaker"
+    },
+    {
+      "name": "conditioning_hit_and_run",
+      "cost": 6,
+      "types":["creature"],
+      "preview":"conditioninghitandrun"
+    },
+    {
+      "name": "conditioning_independent",
+      "cost": 15,
+      "types":["creature"],
+      "preview":"conditioningindependent"
+    },
+    {
+      "name": "conditioning_lean",
+      "cost": 1,
+      "types":["creature"],
+      "preview":"conditioninglean"
+    },
+    {
+      "name": "conditioning_rage",
+      "cost": 9,
+      "types":["creature"],
+      "preview":"conditioningrage"
+    },
+    {
+      "name": "conditioning_savage",
+      "cost": 8,
+      "types":["creature"],
+      "preview":"conditioningsavage"
+    },
+    {
+      "name": "conditioning_sniffer",
+      "cost": 10,
+      "types":["creature"],
+      "preview":"conditioningsniffer"
+    },
+    {
+      "name": "conditioning_stunning",
+      "cost": 12,
+      "types":["creature"],
+      "preview":"conditioningstunning"
+    },
+    {
+      "name": "conditioning_vicious",
+      "cost": 10,
+      "types":["creature"],
+      "preview":"conditioningvicious"
+    },
+    {
+      "name": "conditioning_vigilant",
+      "cost": 5,
+      "types":["creature"],
+      "preview":"conditioningvigilant"
+    },
+    {
+      "name": "conditioning_wily",
+      "cost": 7,
+      "types":["creature"],
+      "preview":"conditioningwily"
+    },
+    {
+      "name": "core_assembly",
+      "cost": 6,
+      "types":["power_armor"],
+      "preview": "coreassembly"
+    },
+    {
+      "name": "counterweight",
+      "cost": 5,
+      "types":["heavy_weapons"],
+      "preview": "counterweight"
+    },
+    {
+      "name": "cushioned",
+      "cost": 1,
+      "types":["armor"],
+      "preview": "cushioned"
+    },
+    {
+      "name": "custom_fitted",
+      "cost": 5,
+      "types":["armor"],
+      "preview": "customfitted"
+    },
+    {
+      "name": "damage_self_destruct",
+      "cost": 6,
+      "types":["robot"],
+      "preview":"damageselfdestruct"
+    },
+    {
+      "name": "dissipating",
+      "cost": 6,
+      "types":["armor"],
+      "preview": "dissipating"
+    },
+    {
+      "name": "elder_paint",
+      "cost": 18,
+      "types":["power_armor"],
+      "preview": "elderpaint"
+    },
+    {
+      "name": "emergency_protocols",
+      "cost": 6,
+      "types":[ "power_armor"],
+      "preview": "emergencyprotocols"
+    },
+    {
+      "name": "explosive_shielding",
+      "cost": 4,
+      "types":["power_armor"],
+      "preview": "explosiveshielding"
+    },
+    {
+      "name": "explosive_vent",
+      "cost": 6,
+      "types":["power_armor"],
+      "preview": "explosivevent"
+    },
+    {
+      "name": "hacking_module",
+      "cost": 10,
+      "types":["robot"],
+      "preview":"hackingmodule"
+    },
+    {
+      "name": "hair_trigger",
+      "cost": 6,
+      "types":["pistols","rifles"],
+      "preview": "hairtrigger"
+    },
+    {
+      "name": "hardened_receiver",
+      "cost": 9,
+      "types":[ "rifles", "pistols"],
+      "preview": "hardenedreceiver"
+    },
+    {
+      "name": "headlamp_power_armor",
+      "cost": 10,
+      "types":["power_armor"],
+      "preview": "headlamppowerarmor"
+    },
+    {
+      "name": "headlamp",
+      "cost": 3,
+      "types":["armor"],
+      "preview": "headlamp"
+    },
+    {
+      "name": "heavy",
+      "cost": 8,
+      "types":[ "melee"],
+      "preview": "heavy"
+    },
+    {
+      "name": "hot_rod_shark_paint",
+      "cost": 7,
+      "types":["power_armor"],
+      "preview": "hotrodsharkpaint"
+    },
+    {
+      "name": "hydraulic_bracers",
+      "cost": 3,
+      "types":["power_armor"],
+      "preview": "hyrdaulicbracers"
+    },
+    {
+      "name": "impact_exchanger",
+      "cost": 9,
+      "types":["power_armor"],
+      "preview":"impactexchanger"
+    },
+    {
+      "name": "improved_flexibility",
+      "cost": 2,
+      "types":["armor"],
+      "preview": "improvedflexibility"
+    },
+    {
+      "name": "internal_database",
+      "cost": 8,
+      "types":["power_armor"],
+      "preview":"internaldatabase"
+    },
+    {
+      "name": "jagged",
+      "cost": 10,
+      "types":["melee"],
+      "preview": "jagged"
+    },
+    {
+      "name": "jetpack",
+      "cost": 8,
+      "types":["power_armor"],
+      "preview": "jetpack"
+    },
+    {
+      "name": "lead_lined",
+      "cost": 4,
+      "types":["armor"],
+      "preview": "leadlined"
+    },
+    {
+      "name": "lengthened_barrel",
+      "cost": 4,
+      "types":["heavy_weapons"],
+      "preview":"lengthenedbarrel"
+    },
+    {
+      "name": "lightweight",
+      "cost": 3,
+      "types":["armor"],
+      "preview": "lightweight"
+    },
+    {
+      "name": "light",
+      "cost": 6,
+      "types":["melee"],
+      "preview": "light"
+    },
+    {
+      "name": "lockpick_module",
+      "cost": 10,
+      "types":["robot"],
+      "preview":"lockpickmodule"
+    },
+    {
+      "name": "long_barrel",
+      "cost": 8,
+      "types":[ "rifles", "pistols"],
+      "preview": "longbarrel"
+    },
+    {
+      "name": "magnetic_attachment",
+      "cost": 2,
+      "types":["robot"],
+      "preview":"magneticattachment"
+    },
+    {
+      "name": "medic_pump",
+      "cost": 10,
+      "types":["power_armor"],
+      "preview": "medicpump"
+    },
+    {
+      "name": "multi-calibre",
+      "cost": 3,
+      "types":[ "rifles", "pistols"],
+      "preview": "multicaliber"
+    },
+    {
+      "name": "multi-purpose",
+      "cost": 3,
+      "types":["melee"],
+      "preview": "multipurpose"
+    },
+    {
+      "name": "muffled",
+      "cost": 5,
+      "types":["clothing","armor"],
+      "preview": "muffled"
+    },
+    {
+      "name": "noxious_armor",
+      "cost": 14,
+      "types":["robot"],
+      "preview":"noxiousarmor"
+    },
+    {
+      "name": "optimized_servos",
+      "cost": 5,
+      "types":["power_armor"],
+      "preview":"optimizedservos"
+    },
+    {
+      "name": "padded",
+      "cost": 3,
+      "types":["armor"],
+      "preview": "padded"
+    },
+    {
+      "name": "pneumatic",
+      "cost": 10,
+      "types":["armor"],
+      "preview":"pneumatic"
+    },
+    {
+      "name": "powerful",
+      "cost": 16,
+      "types":["rifles"],
+      "preview": "powerful"
+    },
+    {
+      "name": "processor_overcharger",
+      "cost": 9,
+      "types":["robot"],
+      "preview":"processorovercharger"
+    },
+    {
+      "name": "radiation_coils",
+      "cost": 5,
+      "types":["robot"],
+      "preview":"radiationcoils"
+    },
+    {
+      "name": "reactive_plates",
+      "cost": 9,
+      "types":["power_armor"],
+      "preview":"reactiveplates"
+    },
+    {
+      "name": "re-bored",
+      "cost": 8,
+      "types":[ "rifles", "pistols"],
+      "preview": "rebored"
+    },
+    {
+      "name": "robot_recon_sensors",
+      "cost": 7,
+      "types":["robot"],
+      "preview":"reconsensorsrobot"
+    },
+    {
+      "name": "recoil_compensator",
+      "cost": 7,
+      "types":"heavy_weapons",
+      "preview": "recoilcompensator"
+    },
+    {
+      "name": "recon_sensors",
+      "cost": 7,
+      "types":["power_armor"],
+      "preview": "reconsensors"
+    },
+    {
+      "name": "refined",
+      "cost": 2,
+      "types":["melee"],
+      "preview": "refined"
+    },
+    {
+      "name": "reflex_sights",
+      "cost": 10,
+      "types":[ "rifles", "pistols"],
+      "preview": "reflexsights"
+    },
+    {
+      "name": "regeneration_field",
+      "cost": 10,
+      "types":["robot"],
+      "preview":"regenerationfield"
+    },
+    {
+      "name": "resistence_field",
+      "cost": 14,
+      "types":["robot"],
+      "preview":"resistancefield"
+    },
+    {
+      "name": "rusty_knuckles",
+      "cost": 2,
+      "types":["power_armor"],
+      "preview": "rustyknuckles"
+    },
+    {
+      "name": "sensor_array_pa",
+      "types":["power_armor"],
+      "cost": 12,
+      "preview":"sensorarraypa"
+    },
+    {
+      "name": "sensor_array_robots",
+      "cost": 13,
+      "types":["robot"],
+      "preview":"sensorarrayrobot"
+    },
+    {
+      "name": "serrated_bayonet",
+      "cost": 9,
+      "types":["heavy_weapons"],
+      "preview": "serratedbayonet"
+    },
+    {
+      "name": "serrated_bodywork",
+      "cost": 5,
+      "types":["robot"],
+      "preview":"serratedbodywork"
+    },
+    {
+      "name": "servo_boost",
+      "cost": 5,
+      "types":["robot"],
+      "preview":"servoboost"
+    },
+    {
+      "name": "silenced",
+      "cost": 2,
+      "types":[ "rifles", "pistols"],
+      "preview": "silenced"
+    },
+    {
+      "name": "spiked",
+      "cost": 6,
+      "types":["melee"],
+      "preview": "spiked"
+    },
+    {
+      "name": "stealth_field",
+      "cost": 5,
+      "types":["robot"],
+      "preview":"stealthfield"
+    },
+    {
+      "name": "stun_pack",
+      "cost": 3,
+      "types":["melee"],
+      "preview": "stunpack"
+    },
+    {
+      "name":"subroutine_bash",
+      "cost":5,
+      "types":["robot"],
+      "preview":"subroutinebash"
+    },
+    {
+      "name":"subroutine_carnage",
+      "cost":9,
+      "types":["robot"],
+      "preview":"subroutinecarnage"
+    },
+    {
+      "name":"subroutine_combat_analysis",
+      "cost":10,
+      "types":["robot"],
+      "preview":"subroutinecombatanalysis"
+    },
+    {
+      "name":"subroutine_combative",
+      "cost":10,
+      "types":["robot"],
+      "preview":"subroutinecombative"
+    },
+    {
+      "name":"subroutine_emergency",
+      "cost":3,
+      "types":["robot"],
+      "preview":"subroutineemergency"
+    },
+    {
+      "name":"subroutine_pause",
+      "cost":7,
+      "types":["robot"],
+      "preview":"subroutinepause"
+    },
+    {
+      "name":"subroutine_quick",
+      "cost":5,
+      "types":["robot"],
+      "preview":"subroutinequick"
+    },
+    {
+      "name":"subroutine_remote",
+      "cost":15,
+      "types":["robot"],
+      "preview":"subroutineremote"
+    },
+    {
+      "name": "superior_materials",
+      "cost": 10,
+      "types":["melee"],
+      "preview": "superiormaterials"
+    },
+    {
+      "name": "targeting_hud",
+      "cost": 10,
+      "types":["power_armor"],
+      "preview": "targetinghud"
+    },
+    {
+      "name":"terminal_self_destruction",
+      "cost":25,
+      "types":["robot"],
+      "preview":"terminalselfdestruct"
+    },
+    {
+      "name":"tesla_bracers",
+      "cost":2,
+      "types":["power_armor"],
+      "preview":"teslabracers"
+    },
+    {
+      "name": "tesla_coils",
+      "cost": 7,
+      "types":["power_armor"],
+      "preview": "teslacoils"
+    },
+    {
+      "name":"tesla_coils_robots",
+      "types":["robots"],
+      "cost":5,
+      "preview":"teslacoilsrobots"
+    },
+    {
+      "name": "thicker_plating",
+      "cost": 7,
+      "types":["power_armor"],
+      "preview": "thickerplating"
+    },
+    {
+      "name":"toxic",
+      "cost":5,
+      "types":["melee"],
+      "preview":"toxic"
+    },
+    {
+      "name": "vats_matrix_overlay",
+      "cost": 8,
+      "types":["power_armor"],
+      "preview": "vatsmatrixoverlay"
+    },
+    {
+      "name": "venomous",
+      "cost": 3,
+      "types":["melee"],
+      "preview": "venomous"
+    },
+    {
+      "name": "vim_refresh_paint",
+      "cost": 15,
+      "types":["power_armor"],
+      "preview": "vimrefreshpaint"
+    },
+    {
+      "name":"welded_plate",
+      "cost":13,
+      "types":["robot"],
+      "preview":"weldedplate"
+    }
+  ],
+  "food_and_drink":[
+    {
+      "name":"bighorner_steak",
+      "cost":10,
+      "preview": "bighornersteak"
+    },
+    {
+      "name":"bloatfly_meat",
+      "cost":17,
+      "preview": "bloatflymeat"
+    },
+    {
+      "name":"blood_pack",
+      "cost":15,
+      "preview": "bloodpack"
+    },
+    {
+      "name":"brahmin_meat",
+      "cost":20,
+      "preview": "brahminmeat"
+    },
+    {
+      "name":"caravan_lunch",
+      "cost":16,
+      "preview": "caravanlunch"
+    },
+    {
+      "name":"cave_fungus",
+      "cost":8,
+      "preview": "cavefungus"
+    },
+    {
+      "name":"cram",
+      "cost":12,
+      "preview": "cram"
+    },
+    {
+      "name":"deathclaw_meat",
+      "cost":29,
+      "preview": "deathclawmeat"
+    },
+    {
+      "name":"fog_crawler_meat",
+      "cost":23,
+      "preview": "fogcrawlermeat"
+    },
+    {
+      "name":"fresh_melon",
+      "cost":9,
+      "preview": "freshmelon"
+    },
+    {
+      "name":"gecko_kebab",
+      "cost":20,
+      "preview": "geckokebab"
+    },
+    {
+      "name":"honey_mesquite_pod",
+      "cost":5,
+      "preview": "honeymesquitepod"
+    },
+    {
+      "name":"iguana_bits",
+      "cost":20,
+      "preview": "iguanabits"
+    },
+    {
+      "name":"iguana_on_a_stick",
+      "cost":15,
+      "preview": "iguanaonastick"
+    },
+    {
+      "name":"mirelurk_meat",
+      "cost":20,
+      "preview": "mirelurkmeat"
+    },
+    {
+      "name":"mole_rat_meat",
+      "cost":24,
+      "preview": "moleratmeat"
+    },
+    {
+      "name":"mutant_hound_meat",
+      "cost":22,
+      "preview": "mutanthoundmeat"
+    },
+    {
+      "name":"nuka_cola",
+      "cost":15,
+      "preview": "nukacola"
+    },
+    {
+      "name":"nuka_cherry",
+      "cost":20,
+      "preview": "nukacherry"
+    },
+    {
+      "name":"nuka_cola_quantum",
+      "cost":41,
+      "preview": "nukacolaquantum"
+    },
+    {
+      "name":"queen_mirelurk_meat",
+      "cost":12,
+      "preview": "queenmirelurkmeat"
+    },
+    {
+      "name":"radroach_meat",
+      "cost":9,
+      "preview": "radroachmeat"
+    },
+    {
+      "name":"radscorpion_egg",
+      "cost":23,
+      "preview": "radscorpionegg"
+    },
+    {
+      "name":"radscorpion_meat",
+      "cost":24,
+      "preview": "radscorpionmeat"
+    },
+    {
+      "name":"radstag_meat",
+      "cost":24,
+      "preview": "radstagmeat"
+    },
+    {
+      "name":"squirrel_bits",
+      "cost":9,
+      "preview": "squirrelbits"
+    },
+    {
+      "name":"squirrel_on_a_stick",
+      "cost":15,
+      "preview": "squirrelonastick"
+    },
+    {
+      "name":"squirrel_stew",
+      "cost":20,
+      "preview": "squirrelstew"
+    },
+    {
+      "name":"sugar_bombs",
+      "cost":9,
+      "preview": "sugarbombs"
+    },
+    {
+      "name":"sunset_sasparilla",
+      "cost":24,
+      "preview": "sunsetsasparilla"
+    },
+    {
+      "name": "tato_and_water",
+      "cost": 9,
+      "preview": "tatoandwater"
+    },
+    {
+      "name":"yao_guai_meat",
+      "cost":29,
+      "preview": "yaoguaimeat"
+    },
+    {
+      "name":"yao_guai_rib_meat",
+      "cost":24,
+      "preview": "yaoguairibmeat"
+    }
+  ],
+  "gear":[
+    {
+      "name":"admin_password",
+      "cost":25,
+      "preview": "adminpassword"
+    },
+    {
+      "name":"armor_piercing_ammo",
+      "cost":1,
+      "preview": "armorpiercingammo"
+    },
+    {
+      "name":"artillery_smoke_grenade",
+      "cost":4,
+      "preview": "artillerysmokegrenade"
+    },
+    {
+      "name":"binoculars",
+      "cost":4,
+      "preview": "binoculars"
+    },
+    {
+      "name":"car_security_override",
+      "cost":1,
+      "preview": "carsecurityoverride"
+    },
+    {
+      "name":"chemical_coating",
+      "cost":10,
+      "restrictions":["creature"]
+    },
+    {
+      "name":"climbing_spikes",
+      "cost":2,
+      "preview": "climbingspikes"
+    },
+    {
+      "name":"creature_patch",
+      "cost":15
+    },
+    {
+      "name":"custom_ammo",
+      "cost":15,
+      "preview": "customammo"
+    },
+    {
+      "name":"dead_mans_switch",
+      "cost":8,
+      "restrictions":["creature"]
+    },
+    {
+      "name":"deathclaw_control_scrambler",
+      "cost":10,
+      "preview":"deathclawcontrolscrambler"
+    },
+    {
+      "name":"domestication_unit",
+      "cost":12,
+      "preview": "domesticationunit"
+    },
+    {
+      "name":"draft_codex",
+      "cost":9,
+      "preview":"draftcodex"
+    },
+    {
+      "name":"fire_extinguisher",
+      "cost":4,
+      "preview": "fireextinguisher"
+    },
+    {
+      "name":"flashlight",
+      "cost":3,
+      "preview": "flashlight"
+    },
+    {
+      "name": "fragile_bobby_pin",
+      "cost": 4,
+      "preview": "fragilebobbypin"
+    },
+    {
+      "name":"fusion_core",
+      "cost":10,
+      "preview": "fusioncore"
+    },
+    {
+      "name": "gen_1_synth_override",
+      "cost": 15,
+      "preview": "gen1synthoverride"
+    },
+    {
+      "name":"hand_written_note",
+      "cost":25,
+      "preview": "handwrittennote"
+    },
+    {
+      "name":"hollow_point_ammo",
+      "cost":2,
+      "preview": "hollowpointammo"
+    },
+    {
+      "name":"incendiary_ammo",
+      "cost":3,
+      "preview": "incendiaryammo"
+    },
+    {
+      "name":"mirelurk_eggs",
+      "cost":12,
+      "preview": "mirelurkeggs"
+    },
+    {
+      "name":"mr_handy_fuel",
+      "cost":4,
+      "restrictions":["robot"],
+      "preview": "mrhandyfuel"
+    },
+    {
+      "name":"ncr_emergency_radio",
+      "cost":4,
+      "preview": "ncremergencyradio"
+    },
+    {
+      "name": "overclocker",
+      "cost": 14,
+      "preview": "overclocker"
+    },
+    {
+      "name":"pheremone_emitter",
+      "cost":8,
+      "preview":"pheremoneemitter"
+    },
+    {
+      "name":"pheremone_mask",
+      "cost":12,
+      "preview":"pheremonemask"
+    },
+    {
+      "name": "power_armor_patch",
+      "cost": 5,
+      "preview": "powerarmorpatch"
+    },
+    {
+      "name": "pulse_shield",
+      "cost": 13,
+      "preview": "pulseshield"
+    },
+    {
+      "name":"robobrain_arms",
+      "cost":5,
+      "restrictions":["robobrain", "robot"],
+      "preview":"robobrainarms"
+    },
+    {
+      "name":"robot_repair_kit",
+      "cost":18,
+      "restrictions":["robot"],
+      "preview": "robotrepairkit"
+    },
+    {
+      "name":"robot_repair_patch",
+      "cost":10,
+      "preview":"robotrepairpatch"
+    },
+    {
+      "name":"rope",
+      "cost":2,
+      "preview": "rope"
+    },
+    {
+      "name":"snakebite_touniquet",
+      "cost":2,
+      "preview": "snakebitetourniquet"
+    },
+    {
+      "name":"skeleton_key",
+      "cost":25,
+      "preview": "skeletonkey"
+    },
+    {
+      "name":"stealth_boy",
+      "cost":22,
+      "preview": "stealthboy"
+    },
+    {
+      "name": "stethoscope",
+      "cost": 4,
+      "preview": "stethoscope"
+    },
+    {
+      "name":"stuffed_monkey",
+      "cost":5,
+      "preview": "stuffedmonkey"
+    },
+    {
+      "name": "synthbooster",
+      "cost": 20,
+      "preview": "synthbooster"
+    },
+    {
+      "name": "temporary_password",
+      "cost": 4,
+      "preview": "temporarypassword"
+    },
+    {
+      "name":"third_arm_clamp",
+      "cost":4,
+      "restrictions":["robot"],
+      "preview":"thirdarmclamp"
+    },
+    {
+      "name":"turret_inhibitors",
+      "cost":3,
+      "preview": "turretinhibitors"
+    },
+    {
+      "name":"unsent_letter",
+      "cost":50,
+      "preview": "unsentletter"
+    },
+    {
+      "name":"vertibird_signal_grenade",
+      "cost":4,
+      "preview": "vertibirdsignalgrenade"
+    },
+    {
+      "name":"weapon_repair_kit",
+      "cost":6,
+      "preview": "weaponrepairkit"
+    },
+    {
+      "name":"zapper",
+      "cost":8,
+      "preview":"zapper"
     }
   ]
 }

@@ -1,11 +1,12 @@
 # Wasteland Workshop
-A skirmish squad builder for Fallout Wasteland Warfare
+A squad builder for Fallout Wasteland Warfare
+Usable at https://achapin.github.io/wastelandworkshop/
 
 # TODO (In no particular order)
-* Shorten query string
+* Better boss flow
+* Automatons
 * Printable lists
-* Make UI prettier
-* Weapon mods
-* Show total upgrade costs for each character
-* Display unit or upgrade card information
 * Unit reordering/sorting
+* Shorten query string
+* Heavy weapons points limit in battle mode
+* "Some cards can only be used by single-model units: Leader, Heroic, Perks, Power Armor, Items with diminishing effects, Unique items, Slow Firing weapons"
