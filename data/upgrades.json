@@ -777,6 +777,11 @@
       "preview": "junkjet"
     },
     {
+      "name": "mk28_nuclear_bomb",
+      "cost": 0,
+      "preview": "mk28nuclearbomb"
+    },
+    {
       "name": "light_machine_gun",
       "cost": 18,
       "preview":"lightmachinegun"
@@ -961,6 +966,11 @@
       "name": "laser_turret",
       "cost": 10,
       "preview": "laserturret"
+    },
+    {
+      "name": "liberty_laser",
+      "cost": 0,
+      "preview": "libertylaser"
     },
     {
       "name": "machine_gun_turret_mk1",
@@ -1492,6 +1502,16 @@
       "name": "lead_pipe",
       "cost": 9,
       "preview": "leadpipe"
+    },
+    {
+      "name": "liberty_prime_stomp",
+      "cost": 0,
+      "preview": "libertyprimestomp"
+    },
+    {
+      "name": "liberty_prime_punch",
+      "cost": 0,
+      "preview": "libertyprimepunch"
     },
     {
       "name": "machete",

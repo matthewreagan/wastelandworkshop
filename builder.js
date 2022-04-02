@@ -613,7 +613,7 @@ function addCharacter(characterElement, presetInfo){
 
 	addLeaderSection(headerRightSection, character);
 
-	if(characterElement.battle_mode_packs.includes("upgrades")){
+	if(character.hasOwnProperty("battle_mode_packs") && characterElement.battle_mode_packs.includes("upgrades")){
 		var heroicSection = document.createElement("div");
 		heroicSection.setAttribute("class", "heroic");
 		var heroicCheckBox = document.createElement('input');
@@ -943,7 +943,7 @@ function addBattleModeSlots(characterElement, character, equipmentSection){
 	if(!characterElement.hasOwnProperty("tags") || !characterElement.tags.includes("synth"))
 	{
 		wear_slots.forEach(function(slotType) {
-			if(slotType != "power_armor" || characterElement.battle_mode_packs.includes("power_armor")){
+			if(slotType != "power_armor" || (character.hasOwnProperty("battle_mode_packs") && characterElement.battle_mode_packs.includes("power_armor"))){
 				var wearSection = getWearSection(character, false, slotType, characterTags);
 					equipmentSection.appendChild(wearSection);
 			}
@@ -1083,7 +1083,7 @@ function inBattleModeKit(optionElement, character, slotType) {
 	var characterElement = getCharacterById(character.name);
 
 	if(!characterElement.hasOwnProperty("battle_mode_packs") ){
-		console.log(character.name + " has no battle mode packs assigned");
+		//console.log(character.name + " has no battle mode packs assigned");
 		return false;
 	}
 

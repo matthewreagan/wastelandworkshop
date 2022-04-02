@@ -502,7 +502,9 @@
     "enclave_soldier":"Enclave Soldier",
     "enclave_trainee":"Enclave Trainee",
     "fog_crawler":"Fog Crawler",
-    "frank_horrigan":"Frank Horrigan",
+    "frank_horrigan_1":"Frank Horrigan 1",
+    "frank_horrigan_2":"Frank Horrigan 2",
+    "frank_horrigan_3":"Frank Horrigan 3",
     "hellfire_trooper":"Hellfire Trooper",
     "lily":"Lily",
     "lorenzo_cabot":"Lorenzo Cabot",
@@ -880,5 +882,6 @@
     "ncr":"NCR",
     "lgn":"Caesar's Legion",
     "mods_creature": "Creature Mods",
-    "mods_robot": "Robot Mods"
+    "mods_robot": "Robot Mods",
+    "liberty_prime": "LIBERTY PRIME"
 }
