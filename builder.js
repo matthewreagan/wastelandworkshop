@@ -769,10 +769,12 @@ function addCharacter(characterElement, presetInfo){
 		equipmentSection.appendChild(perkSection);
 	}
 
-	if(settlementMode){
-		addSettlementModeSlots(characterElement, character, equipmentSection);
-	}else{
-		addBattleModeSlots(characterElement, character, equipmentSection);
+	if(characterElement.name != "liberty_prime") {
+		if(settlementMode){
+			addSettlementModeSlots(characterElement, character, equipmentSection);
+		}else{
+			addBattleModeSlots(characterElement, character, equipmentSection);
+		}
 	}
 
 	showEquipment.addEventListener("click", function() {
