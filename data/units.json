@@ -3162,10 +3162,18 @@
     "must_carry":[
       "melee.liberty_prime_stomp",
       "melee.liberty_prime_punch",
-      "rifles.liberty_laser",
-      "heavy_weapons.mk28_nuclear_bomb"      
+      "pistols.liberty_laser",
+      "heavy_weapons.mk28_nuclear_bomb",
+      "subsystems.active_defense_matrix",
+      "subsystems.electromagnetic_actuators",
+      "subsystems.gyroscopic_sensors",
+      "subsystems.m28_autoloader",
+      "subsystems.power_core",
+      "subsystems.targeting_hud"
     ],
     "name": "liberty_prime",
-    "preview":"libertyprime"
+    "perks" : false,
+    "preview":"libertyprime",
+    "unique_code":"libertyprime"
   }
 ]

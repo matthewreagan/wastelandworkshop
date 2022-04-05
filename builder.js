@@ -764,7 +764,7 @@ function addCharacter(characterElement, presetInfo){
 
 	if(characterElement.hasOwnProperty("tags") && (characterElement.tags.includes("robot") || characterElement.tags.includes("creature"))){
 		addModdedCharacterSlots(characterElement, character, equipmentSection, settlementMode);
-	} else {
+	} else if(!characterElement.hasOwnProperty("perks") || characterElement.perks) {
 		var perkSection = getPerkSection(character);
 		equipmentSection.appendChild(perkSection);
 	}

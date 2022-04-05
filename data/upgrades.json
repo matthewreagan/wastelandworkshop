@@ -968,11 +968,6 @@
       "preview": "laserturret"
     },
     {
-      "name": "liberty_laser",
-      "cost": 0,
-      "preview": "libertylaser"
-    },
-    {
       "name": "machine_gun_turret_mk1",
       "cost": 10,
       "preview": "machinegunturretmk1"
@@ -1214,6 +1209,11 @@
       "name": "laser_pistol",
       "cost": 7,
       "preview": "laserpistol"
+    },
+    {
+      "name": "liberty_laser",
+      "cost": 0,
+      "preview": "libertylaser"
     },
     {
       "name":"lorenzos_artifact_gun",
@@ -4140,6 +4140,38 @@
       "name":"zapper",
       "cost":8,
       "preview":"zapper"
+    }
+  ],
+  "subsystems":[
+    {
+      "name":"active_defense_matrix",
+      "cost":0,
+      "preview":"libertyprime-activedefensematrix"
+    },
+    {
+      "name":"electromagnetic_actuators",
+      "cost":0,
+      "preview":"libertyprime-electromagneticactuators"
+    },
+    {
+      "name":"gyroscopic_sensors",
+      "cost":0,
+      "preview":"libertyprime-gyroscopicsensors"
+    },
+    {
+      "name":"m28_autoloader",
+      "cost":0,
+      "preview":"libertyprime-m28autoloader"
+    },
+    {
+      "name":"power_core",
+      "cost":0,
+      "preview":"libertyprime-powercore"
+    },
+    {
+      "name":"targeting_hud",
+      "cost":0,
+      "preview":"libertyprime-targetinghud"
     }
   ]
 }
