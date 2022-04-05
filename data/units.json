@@ -3158,7 +3158,8 @@
     "cost": 1000, 
     "factions": [
       "bos"
-    ], 
+    ],
+    "mods_allowed" : false,
     "must_carry":[
       "melee.liberty_prime_stomp",
       "melee.liberty_prime_punch",

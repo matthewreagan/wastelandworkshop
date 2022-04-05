@@ -755,8 +755,10 @@ function addCharacter(characterElement, presetInfo){
 				mustCarryElement.appendChild(mustCarryDescription);
 				mustCarrySection.appendChild(mustCarryElement);
 
-				var modSecton = getModSectionFor(character, elements[0], upgrade)
-				mustCarrySection.appendChild(modSecton);
+				if(!characterElement.hasOwnProperty("mods_allowed") || characterElement.mods_allowed){
+					var modSecton = getModSectionFor(character, elements[0], upgrade)
+					mustCarrySection.appendChild(modSecton);
+				}
 			}
 		});
 		equipmentSection.appendChild(mustCarrySection);
